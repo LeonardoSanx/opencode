@@ -8,6 +8,10 @@ export default function Home() {
     <div className="">
       <Head>
         <title>Opencode</title>
+        <meta
+          name="description"
+          content="Functionalities, components, comfigurations, free and ready to use code, navbar, google fonts, react-icons, custom theme"
+        />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,7 +31,7 @@ export default function Home() {
             from={"from-green-500"}
             to={"to-green-400"}
             cardContent={
-              <div className="animate-bounce-slow h-32 sm:h-36 md:h-52 flex -mb-8 mt-8 justify-center">
+              <div className="animate-bounce-slow h-32 sm:h-36 md:h-52 flex -mb-6 mt-8 justify-center">
                 <img
                   src="../../images/List_perspective_matte_2.png"
                   alt="3D laptop icon"
