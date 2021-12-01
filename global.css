@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-import: 232, 108, 200;
+    --color-tag: 4, 139, 213;
+    --color-attr-name: 106, 200, 253;
+    --color-attr-value: 252, 145, 96;
+    --color-component: 46, 182, 125;
+    --color-function: 235, 208, 89;
+    --color-code-text: 255, 255, 242;
+    --color-brakket: 143, 140, 140;
+  }
+}
+
+@layer utilities {
+  .Hero_codeLayout {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+  }
+  .Hero_codeLayout-sm {
+    grid-template-columns: 1fr minmax(min-content, 640px) 1fr;
+    grid-template-rows: auto auto;
+  }
+  .Hero_codeLayout-md {
+    grid-template-columns: 4rem 1fr 4rem;
+  }
+  .Hero_codeLayout-lg {
+    grid-template-columns: 2rem 1fr 52.5% 2rem;
+    grid-template-rows: auto 3.25rem auto 3.25rem;
+  }
+  .Grid_codeLayout {
+    grid-template-columns: 1fr minmax(min-content, 640px) 1fr;
+  }
+  .Grid_codeLayout-lg {
+    grid-template-columns: 2rem 1fr 59.375% 2rem;
+    grid-template-rows: auto 2.25rem auto 2.25rem;
+  }
+  .scroll {
+    @apply scrollbar-thin scrollbar-thumb-scroll scrollbar-thumb-rounded-full;
+  }
+}
