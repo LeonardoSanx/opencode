@@ -22,7 +22,7 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col w-full items-center content-center justify-center min-h-screen">
-        <section className="w-full">
+        <section className="w-full overflow-x-hidden">
           <Navbar />
           <h1 className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-12 mb-8 sm:mt-14 sm:mb-10">
             Navbar Responsiva
@@ -633,7 +633,7 @@ export default function Home() {
             ]}
           />
         </section>
-        <section className=" w-full my-40 ">
+        <section className=" w-full my-40 overflow-x-hidden">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10">
             Google Fonts
           </h1>
