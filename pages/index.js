@@ -858,6 +858,8 @@ export default function Home() {
                       <span className="block">8</span>
                       <span className="block">9</span>
                       <span className="block">10</span>
+                      <span className="block">11</span>
+                      <span className="block">12</span>
                     </div>
                     <code className="flex-auto relative text-code-text block pt-2 mb-1 pl-2 ml-2 mr-2 overflow-auto scroll">
                       <span className="text-code-import block text-left">
@@ -886,7 +888,6 @@ export default function Home() {
                       <span className="text-code-brakket block text-left">
                         {"  "}
                         {"  "}
-                        {"  "}
                         {"<"}
                         <span className="text-code-tag">div </span>
                         <span className="text-code-attr-name">className</span>
@@ -898,7 +899,6 @@ export default function Home() {
                       </span>
 
                       <span className="text-code-brakket block text-left">
-                        {"  "}
                         {"  "}
                         {"  "}
                         {"  "}
@@ -914,7 +914,6 @@ export default function Home() {
                         {"  "}
                         {"  "}
                         {"  "}
-                        {"  "}
                         {"<"}
                         <span className="text-code-tag">span</span>
                         {">"}
@@ -927,7 +926,6 @@ export default function Home() {
                         {"  "}
                         {"  "}
                         {"  "}
-                        {"  "}
                         {"<"}
                         <span className="text-code-tag">span</span>
                         {">"}
@@ -937,7 +935,6 @@ export default function Home() {
                       </span>
 
                       <span className="text-code-brakket block text-left">
-                        {"  "}
                         {"  "}
                         {"  "}
                         {"  "}
@@ -955,9 +952,16 @@ export default function Home() {
                       <span className="text-code-brakket block text-left">
                         {"  "}
                         {"  "}
-                        {"  "}
                         {"<"}/<span className="text-code-tag">div</span>
                         {">"}
+                      </span>
+
+                      <span className="text-code-text block text-left">
+                        {"  "});
+                      </span>
+
+                      <span className="text-code-text block text-left">
+                        {"}"}
                       </span>
                     </code>
                   </pre>
