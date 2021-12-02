@@ -16,7 +16,6 @@ export default function Navbar() {
                   src="../../images/Computer_perspective_matte.png"
                   alt="3D laptop icon"
                   className="h-8 mr-2"
-                  style={{ transform: "scaleX(-1)" }}
                 />
                 <span className="text-gray-700 font-bold mx-1">Opencode</span>
               </div>

@@ -8,11 +8,11 @@ export default function Home() {
     <div className="">
       <Head>
         <title>Opencode</title>
+        <link rel="icon" href="../images/Computer_perspective_matte.png" />
         <meta
           name="description"
           content="Functionalities, components, comfigurations, free and ready to use code, navbar, google fonts, react-icons, custom theme"
         />
-        <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -22,7 +22,7 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col w-full items-center content-center justify-center min-h-screen">
-        <section className="w-full bg-code-editor">
+        <section className="w-full">
           <Navbar />
           <h1 className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-12 mb-8 sm:mt-14 sm:mb-10">
             Navbar Responsiva
@@ -131,7 +131,7 @@ export default function Home() {
                     </span>
 
                     <span className="text-code-text block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
                       <span className="text-code-tag">const </span>[
                       <span className="text-code-tag">navPosition</span>,
                       <span className="text-code-function">
@@ -144,13 +144,13 @@ export default function Home() {
                     </span>
 
                     <span className="text-code-import block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
                       return <span className="text-code-text"> (</span>
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
                       {"<"}
                       <span className="text-code-tag">div </span>
                       <span className="text-code-attr-name">className</span>
@@ -160,8 +160,8 @@ export default function Home() {
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
                       {"<"}
                       <span className="text-code-component">Mobile </span>
                       <span className="text-code-attr-name">navPosition</span>
@@ -171,9 +171,9 @@ export default function Home() {
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"<"}
                       <span className="text-code-tag">div </span>
                       <span className="text-code-attr-name">className</span>
@@ -186,10 +186,10 @@ export default function Home() {
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"<"}
                       <span className="text-code-tag">div </span>
                       <span className="text-code-attr-name">className</span>
@@ -201,10 +201,10 @@ export default function Home() {
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"<"}
                       <span className="text-code-tag">div </span>
                       <span className="text-code-attr-name">className</span>
@@ -216,10 +216,10 @@ export default function Home() {
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"<"}
                       <span className="text-code-tag">a </span>
                       <span className="text-code-attr-name">href</span>
@@ -229,29 +229,29 @@ export default function Home() {
                     </span>
 
                     <span className="text-code-text text-opacity-80 block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"{!-- Logo --}"}
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"</"}
                       <span className="text-code-tag">a</span>
                       {">"}
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"<"}
                       <span className="text-code-tag">nav </span>
                       <span className="text-code-attr-name">className</span>
@@ -263,11 +263,11 @@ export default function Home() {
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"<"}
                       <span className="text-code-tag">ul </span>
                       <span className="text-code-attr-name">className</span>
@@ -279,42 +279,42 @@ export default function Home() {
                     </span>
 
                     <span className="text-code-text text-opacity-80 block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"{!-- Links --}"}
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"</"}
                       <span className="text-code-tag">ul</span>
                       {">"}
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"</"}
                       <span className="text-code-tag">nav</span>
                       {">"}
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"<"}
                       <span className="text-code-tag">div </span>
                       <span className="text-code-attr-name">className</span>
@@ -327,12 +327,12 @@ export default function Home() {
                     </span>
 
                     <span className="text-code-text block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       <span className="text-code-attr-name">onClick</span>=
                       <span className="text-code-tag">{"{"}</span>
                       ()
@@ -341,27 +341,27 @@ export default function Home() {
                     </span>
 
                     <span className="text-code-text block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       <span className="text-code-tag">navPosition </span>
                       ==
                       <span className="text-code-attr-value"> "top-0"</span>
                     </span>
 
                     <span className="text-code-text block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"? "}
                       <span className="text-code-function">setnavPosition</span>
                       (<span className="text-code-attr-value">"-top-full"</span>
@@ -369,14 +369,14 @@ export default function Home() {
                     </span>
 
                     <span className="text-code-text block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {": "}
                       <span className="text-code-function">setnavPosition</span>
                       (<span className="text-code-attr-value">"-top-0"</span>
@@ -384,35 +384,35 @@ export default function Home() {
                     </span>
 
                     <span className="text-code-text block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"}"}
                       <span className="text-code-tag">{"}"}</span>
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {">"}
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       <span className="text-code-tag">{"{navPosition"}</span>
                       <span className="text-code-text"> == </span>
                       <span className="text-code-attr-value">"top-0"</span>
@@ -428,57 +428,57 @@ export default function Home() {
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"</"}
                       <span className="text-code-tag">div</span>
                       {">"}
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"</"}
                       <span className="text-code-tag">div</span>
                       {">"}
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"</"}
                       <span className="text-code-tag">div</span>
                       {">"}
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"</"}
                       <span className="text-code-tag">div</span>
                       {">"}
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
                       {"</"}
                       <span className="text-code-tag">div</span>
                       {">"}
                     </span>
 
                     <span className="text-code-text block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
                       );
                     </span>
 
@@ -519,21 +519,21 @@ export default function Home() {
                     </span>
 
                     <span className="text-code-import block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
                       return <span className="text-code-text"> (</span>
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
                       {"<"}
                       <span className="text-code-tag">div </span>
                     </span>
 
                     <span className="text-code-attr-name block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       className
                       <span className="text-code-text">=</span>
                       <span className="text-code-tag">
@@ -551,15 +551,15 @@ export default function Home() {
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
                       {">"}
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"<"}
                       <span className="text-code-tag">nav </span>
                       <span className="text-code-attr-name">className</span>
@@ -569,10 +569,10 @@ export default function Home() {
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"<"}
                       <span className="text-code-tag">ul </span>
                       <span className="text-code-attr-name">className</span>
@@ -584,43 +584,43 @@ export default function Home() {
                     </span>
 
                     <span className="text-code-text text-opacity-80 block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"{!-- Links --}"}
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"</"}
                       <span className="text-code-tag">ul</span>
                       {">"}
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
+                      {"  "}
                       {"</"}
                       <span className="text-code-tag">nav</span>
                       {">"}
                     </span>
 
                     <span className="text-code-brakket block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
+                      {"  "}
                       {"</"}
                       <span className="text-code-tag">div</span>
                       {">"}
                     </span>
 
                     <span className="text-code-text block text-left">
-                      <span className="text-code-brakket opacity-30">| </span>
+                      {"  "}
                       );
                     </span>
 
@@ -633,7 +633,7 @@ export default function Home() {
             ]}
           />
         </section>
-        <section className="overflow-hidden w-full h-auto my-40 flex flex-col justify-center">
+        <section className=" w-full my-40 ">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10">
             Google Fonts
           </h1>
@@ -824,6 +824,147 @@ export default function Home() {
               </code>
             }
           />
+        </section>
+        <section className="overflow-hidden w-full h-auto my-40 flex flex-col justify-center">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10">
+            Comming Soon
+          </h1>
+          <div
+            className="relative w-full max-w-2xl self-center md:rounded-xl overflow-hidden
+          bg-black text-code-text shadow-2xl flex flex-col h-auto"
+          >
+            <div className="bg-gray-600 bg-opacity-40 h-auto">
+              <div className="flex-none h-11 flex  items-center px-4">
+                <div className="flex space-x-1.5">
+                  <div className="w-3 h-3 border-2 rounded-full border-red-500"></div>
+                  <div className="w-3 h-3 border-2 rounded-full border-yellow-400"></div>
+                  <div className="w-3 h-3 border-2 rounded-full border-green-400"></div>
+                </div>
+              </div>
+              <div className="border-t border-white border-opacity-10">
+                <div className="absolute h-full w-12 bg-black bg-opacity-25"></div>
+                <div
+                  className={`max-h-80 h-auto overflow-auto mt-2 mr-1 scroll`}
+                >
+                  <pre className="flex text-xs md:text-sm">
+                    <div className="block w-12 text-white text-opacity-50 flex-none pt-2 pr-4 pb-2 text-right select-none">
+                      <span className="block">1</span>
+                      <span className="block">2</span>
+                      <span className="block">3</span>
+                      <span className="block">4</span>
+                      <span className="block">5</span>
+                      <span className="block">6</span>
+                      <span className="block">7</span>
+                      <span className="block">8</span>
+                      <span className="block">9</span>
+                      <span className="block">10</span>
+                    </div>
+                    <code className="flex-auto relative text-code-text block pt-2 mb-1 pl-2 ml-2 mr-2 overflow-auto scroll">
+                      <span className="text-code-import block text-left">
+                        export default
+                        <span className="text-code-tag"> function </span>
+                        <span className="text-code-function">Opencode</span>
+                        <span className="text-code-text">{"() {"}</span>
+                      </span>
+
+                      <span className="text-code-import block text-left">
+                        {"  "}
+                        return <span className="text-code-text"> (</span>
+                      </span>
+
+                      <span className="text-code-brakket block text-left">
+                        {"  "}
+                        {"  "}
+                        {"<"}
+                        <span className="text-code-component">Comming </span>
+                        <span className="text-code-attr-name">next</span>
+                        <span className="text-code-text">=</span>
+                        <span className="text-code-tag">{"{customTheme}"}</span>
+                        {" />"}
+                      </span>
+
+                      <span className="text-code-brakket block text-left">
+                        {"  "}
+                        {"  "}
+                        {"  "}
+                        {"<"}
+                        <span className="text-code-tag">div </span>
+                        <span className="text-code-attr-name">className</span>
+                        <span className="text-code-text">=</span>
+                        <span className="text-code-attr-value">
+                          "Comming Soon"
+                        </span>
+                        {">"}
+                      </span>
+
+                      <span className="text-code-brakket block text-left">
+                        {"  "}
+                        {"  "}
+                        {"  "}
+                        {"  "}
+                        {"<"}
+                        <span className="text-code-tag">span</span>
+                        {">"}
+                        <span className="text-code-text"> react-icons </span>
+                        {"<"}/<span className="text-code-tag">span</span>
+                        {">"}
+                      </span>
+
+                      <span className="text-code-brakket block text-left">
+                        {"  "}
+                        {"  "}
+                        {"  "}
+                        {"  "}
+                        {"<"}
+                        <span className="text-code-tag">span</span>
+                        {">"}
+                        <span className="text-code-text"> framer-motion </span>
+                        {"<"}/<span className="text-code-tag">span</span>
+                        {">"}
+                      </span>
+
+                      <span className="text-code-brakket block text-left">
+                        {"  "}
+                        {"  "}
+                        {"  "}
+                        {"  "}
+                        {"<"}
+                        <span className="text-code-tag">span</span>
+                        {">"}
+                        <span className="text-code-text"> SEO </span>
+                        {"<"}/<span className="text-code-tag">span</span>
+                        {">"}
+                      </span>
+
+                      <span className="text-code-brakket block text-left">
+                        {"  "}
+                        {"  "}
+                        {"  "}
+                        {"  "}
+                        {"<"}
+                        <span className="text-code-tag">span</span>
+                        {">"}
+                        <span className="text-code-text">
+                          {" "}
+                          dynamic routing{" "}
+                        </span>
+                        {"<"}/<span className="text-code-tag">span</span>
+                        {">"}
+                      </span>
+
+                      <span className="text-code-brakket block text-left">
+                        {"  "}
+                        {"  "}
+                        {"  "}
+                        {"<"}/<span className="text-code-tag">div</span>
+                        {">"}
+                      </span>
+                    </code>
+                  </pre>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
       </main>
     </div>
