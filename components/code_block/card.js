@@ -7,7 +7,7 @@ export default function Card({ children }) {
               lg:col-end-3 lg:row-start-3 lg:row-end-4 lg:px-0 lg:pt-0 lg:-mr-2"
     >
       <div
-        className="text-sm font-caveat self-center p-8 text-left rounded-tr-xl
+        className="text-sm self-center p-8 text-left rounded-tr-xl
                 backdrop-blur-sm bg-opacity-80 bg-white shadow-xl max-w-screen-sm w-auto
                 sm:text-base sm:rounded-t-xl sm:px-12
                 md:text-lg 
