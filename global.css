@@ -13,6 +13,25 @@
     --color-code-text: 255, 255, 242;
     --color-brakket: 143, 140, 140;
   }
+
+  .theme-green {
+    --color-card: 216, 228, 200;
+    --color-title: 21, 27, 13;
+    --color-card-text: 43, 55, 27;
+    --color-contrast: 177, 201, 146;
+  }
+  .theme-gray {
+    --color-card: 32, 28, 33;
+    --color-title: 226, 222, 227;
+    --color-card-text: 187, 178, 189;
+    --color-contrast: 54, 47, 55;
+  }
+  .theme-blue {
+    --color-card: 0, 110, 144;
+    --color-title: 194, 241, 255;
+    --color-card-text: 10, 198, 255;
+    --color-contrast: 0, 63, 82;
+  }
 }
 
 @layer utilities {

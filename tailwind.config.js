@@ -26,6 +26,7 @@ module.exports = {
       fontFamily: {
         caveat: "'Caveat', cursive",
       },
+
       textColor: {
         code: {
           import: withOpacity("--color-import"),
@@ -37,11 +38,24 @@ module.exports = {
           text: withOpacity("--color-code-text"),
           brakket: withOpacity("--color-brakket"),
         },
+        card: {
+          title: withOpacity("--color-title"),
+          text: withOpacity("--color-card-text"),
+        },
+      },
+      backgroundColor: {
+        card: {
+          card: withOpacity("--color-card"),
+          contrast: withOpacity("--color-contrast"),
+        },
       },
       colors: {
         scroll: {
           DEFAULT: `rgba(255,255,255,0.15)`,
           light: `rgba(0, 0, 0, 0.15)`,
+        },
+        borderColorCard: {
+          DEFAULT: withOpacity("--color-card"),
         },
       },
     },
