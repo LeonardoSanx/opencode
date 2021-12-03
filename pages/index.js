@@ -774,6 +774,9 @@ export default function Home() {
                 <span className="block">5</span>
                 <span className="block">6</span>
                 <span className="block">7</span>
+                <span className="block">8</span>
+                <span className="block">9</span>
+                <span className="block">10</span>
               </div>
             }
             codeTwo={
@@ -825,6 +828,19 @@ export default function Home() {
                   {"  "}
                   {"},"}
                 </span>
+
+                <span className="block text-code-text text-left">
+                  {"  "}
+                  {"  "}
+                  {"},"}
+                </span>
+
+                <span className="block text-code-text text-left">
+                  {"  "}
+                  {"},"}
+                </span>
+
+                <span className="block text-code-text text-left">{"};"}</span>
               </code>
             }
           />
@@ -873,7 +889,7 @@ export default function Home() {
                     transition={{ duration: 0.2 }}
                   >
                     <div className={`${selectedTheme} mt-4`}>
-                      <div className="flex w-full h-auto text-card-text bg-card-card rounded-xl">
+                      <div className="flex w-full h-auto text-card-text text-sm sm:text-base bg-card-card rounded-xl">
                         <img
                           src="../images/plant.jpg"
                           alt="imagem de planta"
@@ -883,11 +899,11 @@ export default function Home() {
                           <h1 className="text-card-title font-bold text-xl">
                             Lorem, ipsum dolor.
                           </h1>
-                          <p className="text-base mt-2 mb-4">
+                          <p className="mt-2 mb-4">
                             amet consectetur adipisicing elit. Voluptate, quia?
                           </p>
                           <div className="flex justify-end cursor-pointer">
-                            <p className="text-base inline-block bg-card-contrast rounded-full py-1 px-3">
+                            <p className="text-center inline-block bg-card-contrast rounded-xl sm:rounded-full py-1 px-3">
                               Read more
                             </p>
                           </div>
@@ -902,6 +918,7 @@ export default function Home() {
             navContent={[
               { id: 0, name: "global.css" },
               { id: 1, name: "tailwind.config.js" },
+              { id: 2, name: "card.js" },
             ]}
             codeContent={[
               {
@@ -933,411 +950,157 @@ export default function Home() {
                     <span className="block">24</span>
                     <span className="block">25</span>
                     <span className="block">26</span>
-                    <span className="block">27</span>
-                    <span className="block">28</span>
-                    <span className="block">29</span>
-                    <span className="block">30</span>
-                    <span className="block">31</span>
-                    <span className="block">32</span>
-                    <span className="block">33</span>
-                    <span className="block">34</span>
-                    <span className="block">35</span>
-                    <span className="block">36</span>
-                    <span className="block">37</span>
                   </div>,
                 ],
                 code: [
                   <code className="flex-auto relative block pt-2 mb-1 pl-2 ml-2 mr-2 overflow-x-auto scroll">
                     <span className="text-code-import block text-left">
-                      import
-                      <span className="text-code-text">{" { "}</span>
-                      <span className="text-code-attr-name">useState</span>
-                      <span className="text-code-text">{" } "}</span>
-                      from
-                      <span className="text-code-attr-value"> "react"</span>
-                      <span className="text-code-text">{";"}</span>
+                      @tailwind
+                      <span className="text-code-attr-name"> base;</span>
                     </span>
 
                     <span className="text-code-import block text-left">
-                      import
-                      <span className="text-code-attr-name"> Mobile </span>
-                      from
-                      <span className="text-code-attr-value"> "./mobile"</span>
-                      <span className="text-code-text">{";"}</span>
+                      @tailwind
+                      <span className="text-code-attr-name"> components;</span>
                     </span>
 
                     <span className="text-code-import block text-left">
-                      import
-                      <span className="text-code-text">{" { "}</span>
-                      <span className="text-code-attr-name">BiMenu, Bix</span>
-                      <span className="text-code-text">{" } "}</span>
-                      from
-                      <span className="text-code-attr-value">
-                        {" "}
-                        "react-icons/bi"
-                      </span>
-                      <span className="text-code-text">{";"}</span>
+                      @tailwind
+                      <span className="text-code-attr-name"> utilities;</span>
                     </span>
 
                     <span className="text-code-tag block text-left"> </span>
 
                     <span className="text-code-import block text-left">
-                      export default
-                      <span className="text-code-tag"> function </span>
-                      <span className="text-code-function">Navbar</span>
-                      <span className="text-code-text">{"() {"}</span>
+                      @layer
+                      <span className="text-code-attr-name"> base</span>
+                      <span className="text-code-text">{" {"}</span>
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-code-function block text-left">
                       {"  "}
-                      <span className="text-code-tag">const </span>[
-                      <span className="text-code-tag">navPosition</span>,
-                      <span className="text-code-function">
-                        {" "}
-                        setnavPosition
-                      </span>
-                      ] = <span className="text-code-function">useState</span>(
-                      <span className="text-code-attr-value">"-top-full"</span>
-                      );
-                    </span>
-
-                    <span className="text-code-import block text-left">
-                      {"  "}
-                      return <span className="text-code-text"> (</span>
-                    </span>
-
-                    <span className="text-code-brakket block text-left">
-                      {"  "}
-                      {"  "}
-                      {"<"}
-                      <span className="text-code-tag">div </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">""</span>
-                      {">"}
-                    </span>
-
-                    <span className="text-code-brakket block text-left">
-                      {"  "}
-                      {"  "}
-                      {"<"}
-                      <span className="text-code-component">Mobile </span>
-                      <span className="text-code-attr-name">navPosition</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-tag">{"{navPosition}"}</span>
-                      {" />"}
-                    </span>
-
-                    <span className="text-code-brakket block text-left">
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"<"}
-                      <span className="text-code-tag">div </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">
-                        "sticky top-0 left-0 w-full z-30 bg-white shadow-lg
-                        justify-center"
-                      </span>
-                      {">"}
-                    </span>
-
-                    <span className="text-code-brakket block text-left">
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"<"}
-                      <span className="text-code-tag">div </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">
-                        "max-w-6xl z-50 mx-auto px-10"
-                      </span>
-                      {">"}
-                    </span>
-
-                    <span className="text-code-brakket block text-left">
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"<"}
-                      <span className="text-code-tag">div </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">
-                        "flex items-center justify-between h-16 sm:h-20"
-                      </span>
-                      {">"}
-                    </span>
-
-                    <span className="text-code-brakket block text-left">
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"<"}
-                      <span className="text-code-tag">a </span>
-                      <span className="text-code-attr-name">href</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">"/"</span>
-                      {">"}
-                    </span>
-
-                    <span className="text-code-text text-opacity-80 block text-left">
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"{!-- Logo --}"}
-                    </span>
-
-                    <span className="text-code-brakket block text-left">
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"</"}
-                      <span className="text-code-tag">a</span>
-                      {">"}
-                    </span>
-
-                    <span className="text-code-brakket block text-left">
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"<"}
-                      <span className="text-code-tag">nav </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">
-                        "hidden md:flex md:flex-grow"
-                      </span>
-                      {">"}
-                    </span>
-
-                    <span className="text-code-brakket block text-left">
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"<"}
-                      <span className="text-code-tag">ul </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">
-                        "flex flex-grow justify-end flex-wrap items-center"
-                      </span>
-                      {">"}
-                    </span>
-
-                    <span className="text-code-text text-opacity-80 block text-left">
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"{!-- Links --}"}
-                    </span>
-
-                    <span className="text-code-brakket block text-left">
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"</"}
-                      <span className="text-code-tag">ul</span>
-                      {">"}
-                    </span>
-
-                    <span className="text-code-brakket block text-left">
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"</"}
-                      <span className="text-code-tag">nav</span>
-                      {">"}
-                    </span>
-
-                    <span className="text-code-brakket block text-left">
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"<"}
-                      <span className="text-code-tag">div </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">
-                        "flex-col w-5 md:hidden cursor-pointer text-2xl
-                        sm:text-3xl transition-all duration-500"
-                      </span>
-                      {">"}
+                      .theme-green
+                      <span className="text-code-text">{" {"}</span>
                     </span>
 
                     <span className="text-code-text block text-left">
                       {"  "}
                       {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      <span className="text-code-attr-name">onClick</span>=
-                      <span className="text-code-tag">{"{"}</span>
-                      ()
-                      <span className="text-code-tag">{" => "}</span>
-                      {"{"}
+                      <span className="text-code-attr-name">--color-card</span>:
+                      216, 228, 200;
                     </span>
 
                     <span className="text-code-text block text-left">
                       {"  "}
                       {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      <span className="text-code-tag">navPosition </span>
-                      ==
-                      <span className="text-code-attr-value"> "top-0"</span>
+                      <span className="text-code-attr-name">--color-title</span>
+                      : 21, 27, 13;
                     </span>
 
                     <span className="text-code-text block text-left">
                       {"  "}
                       {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"? "}
-                      <span className="text-code-function">setnavPosition</span>
-                      (<span className="text-code-attr-value">"-top-full"</span>
-                      )
+                      <span className="text-code-attr-name">
+                        --color-card-text
+                      </span>
+                      : 43, 55, 27;
                     </span>
 
                     <span className="text-code-text block text-left">
                       {"  "}
                       {"  "}
+                      <span className="text-code-attr-name">
+                        --color-contrast
+                      </span>
+                      : 177, 201, 146;
+                    </span>
+
+                    <span className="text-code-text block text-left">
+                      {"  }"}
+                    </span>
+
+                    <span className="text-code-function block text-left">
                       {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {": "}
-                      <span className="text-code-function">setnavPosition</span>
-                      (<span className="text-code-attr-value">"-top-0"</span>
-                      );
+                      .theme-gray
+                      <span className="text-code-text">{" {"}</span>
                     </span>
 
                     <span className="text-code-text block text-left">
                       {"  "}
                       {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"}"}
-                      <span className="text-code-tag">{"}"}</span>
-                    </span>
-
-                    <span className="text-code-brakket block text-left">
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {">"}
-                    </span>
-
-                    <span className="text-code-brakket block text-left">
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      <span className="text-code-tag">{"{navPosition"}</span>
-                      <span className="text-code-text"> == </span>
-                      <span className="text-code-attr-value">"top-0"</span>
-                      <span className="text-code-text"> ? </span>
-                      {"<"}
-                      <span className="text-code-component">BiX</span>
-                      {" />"}
-                      <span className="text-code-text"> : </span>
-                      {"<"}
-                      <span className="text-code-component">BiMenu</span>
-                      {" />"}
-                      <span className="text-code-tag">{"}"}</span>
-                    </span>
-
-                    <span className="text-code-brakket block text-left">
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"</"}
-                      <span className="text-code-tag">div</span>
-                      {">"}
-                    </span>
-
-                    <span className="text-code-brakket block text-left">
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"</"}
-                      <span className="text-code-tag">div</span>
-                      {">"}
-                    </span>
-
-                    <span className="text-code-brakket block text-left">
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"</"}
-                      <span className="text-code-tag">div</span>
-                      {">"}
-                    </span>
-
-                    <span className="text-code-brakket block text-left">
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"</"}
-                      <span className="text-code-tag">div</span>
-                      {">"}
-                    </span>
-
-                    <span className="text-code-brakket block text-left">
-                      {"  "}
-                      {"  "}
-                      {"</"}
-                      <span className="text-code-tag">div</span>
-                      {">"}
+                      <span className="text-code-attr-name">--color-card</span>:
+                      32, 28, 33;
                     </span>
 
                     <span className="text-code-text block text-left">
                       {"  "}
-                      );
+                      {"  "}
+                      <span className="text-code-attr-name">--color-title</span>
+                      : 226, 222, 227;
+                    </span>
+
+                    <span className="text-code-text block text-left">
+                      {"  "}
+                      {"  "}
+                      <span className="text-code-attr-name">
+                        --color-card-text
+                      </span>
+                      : 187, 178, 189;
+                    </span>
+
+                    <span className="text-code-text block text-left">
+                      {"  "}
+                      {"  "}
+                      <span className="text-code-attr-name">
+                        --color-contrast
+                      </span>
+                      : 54, 47, 55;
+                    </span>
+
+                    <span className="text-code-text block text-left">
+                      {"  }"}
+                    </span>
+
+                    <span className="text-code-function block text-left">
+                      {"  "}
+                      .theme-blue
+                      <span className="text-code-text">{" {"}</span>
+                    </span>
+
+                    <span className="text-code-text block text-left">
+                      {"  "}
+                      {"  "}
+                      <span className="text-code-attr-name">--color-card</span>:
+                      0, 110, 144;
+                    </span>
+
+                    <span className="text-code-text block text-left">
+                      {"  "}
+                      {"  "}
+                      <span className="text-code-attr-name">--color-title</span>
+                      : 194, 241, 255;
+                    </span>
+
+                    <span className="text-code-text block text-left">
+                      {"  "}
+                      {"  "}
+                      <span className="text-code-attr-name">
+                        --color-card-text
+                      </span>
+                      : 10, 198, 255;
+                    </span>
+
+                    <span className="text-code-text block text-left">
+                      {"  "}
+                      {"  "}
+                      <span className="text-code-attr-name">
+                        --color-contrast
+                      </span>
+                      : 0, 63, 82;
+                    </span>
+
+                    <span className="text-code-text block text-left">
+                      {"  }"}
                     </span>
 
                     <span className="text-code-text block text-left">
@@ -1364,125 +1127,526 @@ export default function Home() {
                     <span className="block">12</span>
                     <span className="block">13</span>
                     <span className="block">14</span>
+                    <span className="block">15</span>
+                    <span className="block">16</span>
+                    <span className="block">17</span>
+                    <span className="block">18</span>
+                    <span className="block">19</span>
+                    <span className="block">21</span>
+                    <span className="block">22</span>
+                    <span className="block">23</span>
+                    <span className="block">24</span>
+                    <span className="block">25</span>
+                    <span className="block">26</span>
+                    <span className="block">27</span>
+                    <span className="block">28</span>
+                    <span className="block">29</span>
                   </div>,
                 ],
                 code: [
                   <code className="flex-auto relative block pt-2 mb-1 pl-2 ml-2 mr-2 overflow-x-auto scroll">
-                    <span className="text-code-import block text-left">
-                      export default
-                      <span className="text-code-tag"> function </span>
-                      <span className="text-code-function">Mobile</span>
-                      <span className="text-code-text">{"() {"}</span>
+                    <span className="text-code-text block text-left">
+                      <span className="text-code-tag">function </span>
+                      <span className="text-code-function">withOpacity</span>(
+                      <span className="text-code-attr-name">variableName</span>
+                      {") {"}
                     </span>
 
-                    <span className="text-code-import block text-left">
+                    <span className="text-code-text block text-left">
                       {"  "}
-                      return <span className="text-code-text"> (</span>
+                      <span className="text-code-import">return</span>
+                      {" ({ "}
+                      <span className="text-code-attr-name">opacityValue</span>
+                      {" )} "}
+                      <span className="text-code-tag">{"=>"}</span>
+                      {" {"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-code-text block text-left">
                       {"  "}
                       {"  "}
-                      {"<"}
-                      <span className="text-code-tag">div </span>
+                      <span className="text-code-import">if</span>
+                      {" ("}
+                      <span className="text-code-attr-name">opacityValue </span>
+                      ==
+                      <span className="text-code-tag"> undefined</span>
+                      {") {"}
+                    </span>
+
+                    <span className="text-code-text block text-left">
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      <span className="text-code-attr-name">opacityValue </span>
+                      == 1;
+                    </span>
+
+                    <span className="text-code-text block text-left">
+                      {"  "}
+                      {"  }"}
+                    </span>
+
+                    <span className="text-code-text block text-left">
+                      {"  "}
+                      {"  "}
+                      <span className="text-code-import">return</span>
+                      {" ({ "}
+                      <span className="text-code-attr-value">
+                        `rgba(var(
+                        <span className="text-code-tag">
+                          {"${"}
+                          <span className="text-code-attr-name">
+                            variableName
+                          </span>
+                          {"}"}
+                        </span>
+                        ),
+                        <span className="text-code-tag">
+                          {"${"}
+                          <span className="text-code-attr-name">
+                            opacityValue
+                          </span>
+                          {"}"}
+                        </span>
+                        )`
+                      </span>
+                      ;
+                    </span>
+
+                    <span className="block text-code-text text-left">
+                      {"  "}
+                      {"};"}
+                    </span>
+
+                    <span className="block text-code-text text-left">
+                      {"}"}
+                    </span>
+
+                    <span className="text-code-tag block text-left"> </span>
+                    <span className="text-code-tag block text-left"> </span>
+
+                    <span className="text-code-component block text-left">
+                      module
+                      <span className="text-code-text">{"."}</span>
+                      exports
+                      <span className="text-code-text">{" = "}</span>
+                      <span className="text-code-text">{"{"}</span>
+                    </span>
+
+                    <span className="text-code-attr-name block text-left">
+                      {"  "}
+                      theme:
+                      <span className="text-code-text">{" {"}</span>
+                    </span>
+
+                    <span className="text-code-attr-name block text-left">
+                      {"  "}
+                      {"  "}
+                      extend:
+                      <span className="text-code-text">{" {"}</span>
                     </span>
 
                     <span className="text-code-attr-name block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
-                      className
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-tag">
-                        {"{"}
-                        <span className="text-code-attr-value">`absolute</span>
-                        {" %{"}
-                        <span className="text-code-attr-name">navPosition</span>
-                        {"} "}
-                        <span className="text-code-attr-value">
-                          w-full z-30 bg-white pb-2 mt-24 md:hidden
-                          transition-all duration-500`
-                        </span>
-                        {"}"}
-                      </span>
+                      textColor:
+                      <span className="text-code-text">{" {"}</span>
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-code-attr-name block text-left">
                       {"  "}
                       {"  "}
-                      {">"}
+                      {"  "}
+                      {"  "}
+                      card:
+                      <span className="text-code-text">{" {"}</span>
                     </span>
 
-                    <span className="text-code-brakket block text-left">
-                      {"  "}
-                      {"  "}
-                      {"  "}
-                      {"<"}
-                      <span className="text-code-tag">nav </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">"w-full"</span>
-                      {">"}
-                    </span>
-
-                    <span className="text-code-brakket block text-left">
+                    <span className="block text-code-text text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
-                      {"<"}
-                      <span className="text-code-tag">ul </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
+                      {"  "}
+                      <span className="text-code-function">title</span>
+                      <span className="text-code-attr-name">: </span>
+                      <span className="text-code-function">withOpacity</span>(
                       <span className="text-code-attr-value">
-                        "flex justify-end flex-wrap items-center"
+                        "--color-title"
                       </span>
-                      {">"}
+                      ),
                     </span>
 
-                    <span className="text-code-text text-opacity-80 block text-left">
+                    <span className="block text-code-text text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
-                      {"{!-- Links --}"}
+                      <span className="text-code-function">text</span>
+                      <span className="text-code-attr-name">: </span>
+                      <span className="text-code-function">withOpacity</span>(
+                      <span className="text-code-attr-value">
+                        "--color-card-text"
+                      </span>
+                      ),
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="block text-code-text text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
-                      {"</"}
-                      <span className="text-code-tag">ul</span>
-                      {">"}
+                      {"},"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-code-attr-name block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
-                      {"</"}
-                      <span className="text-code-tag">nav</span>
-                      {">"}
+                      backgroundColor:
+                      <span className="text-code-text">{" {"}</span>
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-code-attr-name block text-left">
                       {"  "}
                       {"  "}
-                      {"</"}
-                      <span className="text-code-tag">div</span>
-                      {">"}
+                      {"  "}
+                      {"  "}
+                      card:
+                      <span className="text-code-text">{" {"}</span>
+                    </span>
+
+                    <span className="block text-code-text text-left">
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      <span className="text-code-function">card</span>
+                      <span className="text-code-attr-name">: </span>
+                      <span className="text-code-function">withOpacity</span>(
+                      <span className="text-code-attr-value">
+                        "--color-card"
+                      </span>
+                      ),
+                    </span>
+
+                    <span className="block text-code-text text-left">
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      <span className="text-code-function">contrast</span>
+                      <span className="text-code-attr-name">: </span>
+                      <span className="text-code-function">withOpacity</span>(
+                      <span className="text-code-attr-value">
+                        "--color-contrast"
+                      </span>
+                      ),
+                    </span>
+
+                    <span className="block text-code-text text-left">
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"},"}
+                    </span>
+
+                    <span className="block text-code-text text-left">
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"},"}
+                    </span>
+
+                    <span className="block text-code-text text-left">
+                      {"  "}
+                      {"  "}
+                      {"},"}
+                    </span>
+
+                    <span className="block text-code-text text-left">
+                      {"  "}
+                      {"},"}
+                    </span>
+
+                    <span className="block text-code-text text-left">
+                      {"};"}
+                    </span>
+                  </code>,
+                ],
+              },
+              {
+                id: 2,
+                count: [
+                  <div className="pb-2">
+                    <span className="block">1</span>
+                    <span className="block">2</span>
+                    <span className="block">3</span>
+                    <span className="block">4</span>
+                    <span className="block">5</span>
+                    <span className="block">6</span>
+                    <span className="block">7</span>
+                    <span className="block">8</span>
+                    <span className="block">9</span>
+                    <span className="block">10</span>
+                    <span className="block">11</span>
+                    <span className="block">12</span>
+                    <span className="block">13</span>
+                    <span className="block">14</span>
+                    <span className="block">15</span>
+                    <span className="block">16</span>
+                    <span className="block">17</span>
+                    <span className="block">18</span>
+                    <span className="block">19</span>
+                    <span className="block">21</span>
+                    <span className="block">22</span>
+                    <span className="block">23</span>
+                    <span className="block">24</span>
+                    <span className="block">25</span>
+                    <span className="block">26</span>
+                    <span className="block">27</span>
+                    <span className="block">28</span>
+                    <span className="block">29</span>
+                  </div>,
+                ],
+                code: [
+                  <code className="flex-auto relative block pt-2 mb-1 pl-2 ml-2 mr-2 overflow-x-auto scroll">
+                    <span className="text-code-text block text-left">
+                      <span className="text-code-tag">function </span>
+                      <span className="text-code-function">withOpacity</span>(
+                      <span className="text-code-attr-name">variableName</span>
+                      {") {"}
                     </span>
 
                     <span className="text-code-text block text-left">
                       {"  "}
-                      );
+                      <span className="text-code-import">return</span>
+                      {" ({ "}
+                      <span className="text-code-attr-name">opacityValue</span>
+                      {" )} "}
+                      <span className="text-code-tag">{"=>"}</span>
+                      {" {"}
                     </span>
 
                     <span className="text-code-text block text-left">
+                      {"  "}
+                      {"  "}
+                      <span className="text-code-import">if</span>
+                      {" ("}
+                      <span className="text-code-attr-name">opacityValue </span>
+                      ==
+                      <span className="text-code-tag"> undefined</span>
+                      {") {"}
+                    </span>
+
+                    <span className="text-code-text block text-left">
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      <span className="text-code-attr-name">opacityValue </span>
+                      == 1;
+                    </span>
+
+                    <span className="text-code-text block text-left">
+                      {"  "}
+                      {"  }"}
+                    </span>
+
+                    <span className="text-code-text block text-left">
+                      {"  "}
+                      {"  "}
+                      <span className="text-code-import">return</span>
+                      {" ({ "}
+                      <span className="text-code-attr-value">
+                        `rgba(var(
+                        <span className="text-code-tag">
+                          {"${"}
+                          <span className="text-code-attr-name">
+                            variableName
+                          </span>
+                          {"}"}
+                        </span>
+                        ),
+                        <span className="text-code-tag">
+                          {"${"}
+                          <span className="text-code-attr-name">
+                            opacityValue
+                          </span>
+                          {"}"}
+                        </span>
+                        )`
+                      </span>
+                      ;
+                    </span>
+
+                    <span className="block text-code-text text-left">
+                      {"  "}
+                      {"};"}
+                    </span>
+
+                    <span className="block text-code-text text-left">
                       {"}"}
+                    </span>
+
+                    <span className="text-code-tag block text-left"> </span>
+                    <span className="text-code-tag block text-left"> </span>
+
+                    <span className="text-code-component block text-left">
+                      module
+                      <span className="text-code-text">{"."}</span>
+                      exports
+                      <span className="text-code-text">{" = "}</span>
+                      <span className="text-code-text">{"{"}</span>
+                    </span>
+
+                    <span className="text-code-attr-name block text-left">
+                      {"  "}
+                      theme:
+                      <span className="text-code-text">{" {"}</span>
+                    </span>
+
+                    <span className="text-code-attr-name block text-left">
+                      {"  "}
+                      {"  "}
+                      extend:
+                      <span className="text-code-text">{" {"}</span>
+                    </span>
+
+                    <span className="text-code-attr-name block text-left">
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      textColor:
+                      <span className="text-code-text">{" {"}</span>
+                    </span>
+
+                    <span className="text-code-attr-name block text-left">
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      card:
+                      <span className="text-code-text">{" {"}</span>
+                    </span>
+
+                    <span className="block text-code-text text-left">
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      <span className="text-code-function">title</span>
+                      <span className="text-code-attr-name">: </span>
+                      <span className="text-code-function">withOpacity</span>(
+                      <span className="text-code-attr-value">
+                        "--color-title"
+                      </span>
+                      ),
+                    </span>
+
+                    <span className="block text-code-text text-left">
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      <span className="text-code-function">text</span>
+                      <span className="text-code-attr-name">: </span>
+                      <span className="text-code-function">withOpacity</span>(
+                      <span className="text-code-attr-value">
+                        "--color-card-text"
+                      </span>
+                      ),
+                    </span>
+
+                    <span className="block text-code-text text-left">
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"},"}
+                    </span>
+
+                    <span className="text-code-attr-name block text-left">
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      backgroundColor:
+                      <span className="text-code-text">{" {"}</span>
+                    </span>
+
+                    <span className="text-code-attr-name block text-left">
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      card:
+                      <span className="text-code-text">{" {"}</span>
+                    </span>
+
+                    <span className="block text-code-text text-left">
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      <span className="text-code-function">card</span>
+                      <span className="text-code-attr-name">: </span>
+                      <span className="text-code-function">withOpacity</span>(
+                      <span className="text-code-attr-value">
+                        "--color-card"
+                      </span>
+                      ),
+                    </span>
+
+                    <span className="block text-code-text text-left">
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      <span className="text-code-function">contrast</span>
+                      <span className="text-code-attr-name">: </span>
+                      <span className="text-code-function">withOpacity</span>(
+                      <span className="text-code-attr-value">
+                        "--color-contrast"
+                      </span>
+                      ),
+                    </span>
+
+                    <span className="block text-code-text text-left">
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"},"}
+                    </span>
+
+                    <span className="block text-code-text text-left">
+                      {"  "}
+                      {"  "}
+                      {"  "}
+                      {"},"}
+                    </span>
+
+                    <span className="block text-code-text text-left">
+                      {"  "}
+                      {"  "}
+                      {"},"}
+                    </span>
+
+                    <span className="block text-code-text text-left">
+                      {"  "}
+                      {"},"}
+                    </span>
+
+                    <span className="block text-code-text text-left">
+                      {"};"}
                     </span>
                   </code>,
                 ],
