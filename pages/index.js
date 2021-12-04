@@ -5,7 +5,7 @@ import Navbar from "../components/navbar";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-export default function Home() {
+function Home() {
   const themes = ["theme-green", "theme-gray", "theme-blue"];
   const [selectedTheme, setselectedTheme] = useState(themes[0]);
 
@@ -27,11 +27,34 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col w-full items-center content-center justify-center min-h-screen">
-        <section className="w-full mb-40 overflow-hidden">
-          <Navbar />
+        <section className="relative w-full py-28 overflow-hidden justify-center">
+          <div className="max-w-7xl z-50 mx-auto pb-10 px-6 sm:px-10">
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10">
+              Componentes, configurações e códigos explícitos com Tailwind.
+            </h1>
+            <p className="max-w-screen-lg text-lg sm:text-2xl sm:leading-10 font-medium mb-10 sm:mb-11">
+              Criado para mais
+              <span className="text-yellow-400"> fácil entendimento </span>e
+              <span className="text-yellow-400"> pronto para uso </span>
+              em qualquer design responsivo.
+            </p>
+            <div className="flex flex-wrap">
+              <a
+                href="https://tailwindcss.com/"
+                target="_blank"
+                className="w-full sm:w-auto flex-none text-center bg-gradient-to-br from-blue-300 to-blue-700 text-gray-800 hover:text-white text-base sm:text-lg leading-6 font-semibold py-2 sm:py-3 px-6 rounded-xl shadow-lg duration-100"
+              >
+                Site oficial
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section className="w-full pb-40 overflow-hidden">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-12 mb-8 sm:mt-14 sm:mb-10">
             Navbar Responsiva
           </h1>
+          <Navbar />
           <CodeNav
             from={"from-green-600"}
             to={"to-green-300"}
@@ -637,7 +660,7 @@ export default function Home() {
           />
         </section>
 
-        <section className=" w-full mb-40 overflow-hidden">
+        <section className=" w-full pb-40 overflow-hidden">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10">
             Google Fonts
           </h1>
@@ -846,7 +869,7 @@ export default function Home() {
           />
         </section>
 
-        <section className="w-full mb-40 overflow-hidden">
+        <section className="w-full pb-40 overflow-hidden">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-12 mb-8 sm:mt-14 sm:mb-10">
             Custom Themes
           </h1>
@@ -1662,7 +1685,7 @@ export default function Home() {
 
         <section className="overflow-hidden w-full h-auto mb-40 flex flex-col justify-center">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10">
-            Comming Soon
+            Em breve
           </h1>
           <div
             className="relative w-full max-w-2xl self-center md:rounded-xl overflow-hidden
@@ -1713,10 +1736,10 @@ export default function Home() {
                         {"  "}
                         {"  "}
                         {"<"}
-                        <span className="text-code-component">Comming </span>
-                        <span className="text-code-attr-name">next</span>
+                        <span className="text-code-component">Próxima </span>
+                        <span className="text-code-attr-name">feature</span>
                         <span className="text-code-text">=</span>
-                        <span className="text-code-tag">{"{customTheme}"}</span>
+                        <span className="text-code-tag">{"{react-icons}"}</span>
                         {" />"}
                       </span>
 
@@ -1727,21 +1750,7 @@ export default function Home() {
                         <span className="text-code-tag">div </span>
                         <span className="text-code-attr-name">className</span>
                         <span className="text-code-text">=</span>
-                        <span className="text-code-attr-value">
-                          "Comming Soon"
-                        </span>
-                        {">"}
-                      </span>
-
-                      <span className="text-code-brakket block text-left">
-                        {"  "}
-                        {"  "}
-                        {"  "}
-                        {"<"}
-                        <span className="text-code-tag">span</span>
-                        {">"}
-                        <span className="text-code-text"> react-icons </span>
-                        {"<"}/<span className="text-code-tag">span</span>
+                        <span className="text-code-attr-value">"Em breve"</span>
                         {">"}
                       </span>
 
@@ -1796,6 +1805,21 @@ export default function Home() {
                       <span className="text-code-brakket block text-left">
                         {"  "}
                         {"  "}
+                        {"  "}
+                        {"<"}
+                        <span className="text-code-tag">span</span>
+                        {">"}
+                        <span className="text-code-text">
+                          {" "}
+                          carrinho de compras{" "}
+                        </span>
+                        {"<"}/<span className="text-code-tag">span</span>
+                        {">"}
+                      </span>
+
+                      <span className="text-code-brakket block text-left">
+                        {"  "}
+                        {"  "}
                         {"<"}/<span className="text-code-tag">div</span>
                         {">"}
                       </span>
@@ -1818,3 +1842,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;

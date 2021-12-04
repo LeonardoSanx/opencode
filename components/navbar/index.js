@@ -3,12 +3,13 @@ import Mobile from "./mobile";
 import { BiMenu, BiX } from "react-icons/bi";
 
 export default function Navbar() {
-  const [navPosition, setnavPosition] = useState("-top-full");
+  const [navHeight, setnavHeight] = useState("h-0");
+  console.log(navHeight);
   return (
-    <div className="">
-      <Mobile navPosition={navPosition} />
-      <div className="sticky top-0 left-0 w-full z-30 bg-white shadow-lg justify-center ">
-        <div className="max-w-6xl z-50 mx-auto px-10">
+    <div className="bg-red-400 relative mb-10">
+      <Mobile navHeight={navHeight} />
+      <div className="sticky top-0 left-0 w-full z-30 bg-white shadow-lg justify-center">
+        <div className="max-w-7xl z-50 mx-auto px-10">
           <div className="flex items-center justify-between h-16 sm:h-20">
             <a href="/">
               <div className="flex-shrink-0 text-lg sm:text-2xl flex ">
@@ -51,12 +52,10 @@ export default function Navbar() {
             <div
               className="flex-col w-5 md:hidden cursor-pointer text-2xl sm:text-3xl transition-all duration-500"
               onClick={() => {
-                navPosition == "top-0"
-                  ? setnavPosition("-top-full")
-                  : setnavPosition("top-0");
+                navHeight == "h-0" ? setnavHeight("h-60") : setnavHeight("h-0");
               }}
             >
-              {navPosition == "top-0" ? <BiX /> : <BiMenu />}
+              {navHeight == "h-0" ? <BiMenu /> : <BiX />}
             </div>
           </div>
         </div>
