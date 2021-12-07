@@ -35,6 +35,7 @@ function Home() {
           name="description"
           content="Functionalidades, componentes, configurações, códigos explícitos e prontos para uso, navbar, google fonts, custom theme, react-icons"
         />
+        <meta name="author" content="Leonardo Machado" />
         <meta
           name="twitter:title"
           content="Opencode - Componentes, configurações e códigos explícitos com Tailwind."
@@ -43,8 +44,13 @@ function Home() {
           name="twitter:description"
           content="Funcionalidades criadas com tailwind para mais fácil entendimento e prontas para uso em qualquer design responsivo."
         />
-        <meta name="twitter:image" content="../images/twitter.jpg" />
-        <meta name="og:image" content="../images/twitter.jpg" />
+        <meta name="twitter:image" content="../images/twitter.png" />
+        <meta
+          name="image"
+          property="og:image"
+          content="../images/twitter.png"
+          alt="Opencode intro image"
+        />
         <meta
           name="og:title"
           content="Opencode - Componentes, configurações e códigos explícitos com Tailwind."
