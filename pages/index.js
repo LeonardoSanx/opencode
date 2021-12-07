@@ -26,12 +26,33 @@ function Home() {
   return (
     <div className="">
       <Head>
-        <title>Opencode</title>
+        <title>
+          Opencode - Componentes, configurações e códigos explícitos com
+          Tailwind.
+        </title>
         <link rel="icon" href="../images/Computer_perspective_matte.png" />
         <meta
           name="description"
           content="Functionalidades, componentes, configurações, códigos explícitos e prontos para uso, navbar, google fonts, custom theme, react-icons"
         />
+        <meta
+          name="twitter:title"
+          content="Opencode - Componentes, configurações e códigos explícitos com Tailwind."
+        />
+        <meta
+          name="twitter:description"
+          content="Funcionalidades criadas com tailwind para mais fácil entendimento e prontas para uso em qualquer design responsivo."
+        />
+        <meta name="twitter:image" content="../images/twitter.jpg" />
+        <meta
+          name="og:title"
+          content="Opencode - Componentes, configurações e códigos explícitos com Tailwind."
+        />
+        <meta
+          name="og:description"
+          content="Funcionalidades criadas com tailwind para mais fácil entendimento e prontas para uso em qualquer design responsivo."
+        />
+        <meta name="og:image" content="../images/twitter.jpg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
