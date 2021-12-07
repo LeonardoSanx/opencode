@@ -30,7 +30,7 @@ function Home() {
         <link rel="icon" href="../images/Computer_perspective_matte.png" />
         <meta
           name="description"
-          content="Functionalities, components, comfigurations, free and ready to use code, navbar, google fonts, react-icons, custom theme"
+          content="Functionalidades, componentes, configurações, códigos explícitos e prontos para uso, navbar, google fonts, custom theme, react-icons"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -1721,7 +1721,7 @@ function Home() {
                 className="text-gray-400 w-full border-gray-400 border flex justify-center items-center cursor-pointer 
                 text-sm sm:text-base leading-6 font-semibold py-2 px-6 mb-4 rounded-xl shadow-md duration-200
                 sm:w-auto sm:py-3 sm:mb-6 sm:mr-3 sm:shadow-lg
-                hover:text-gray-900"
+                hover:text-gray-900 focus:border-gray-900"
               >
                 <span className="text-gray-900">$ npm i react-icons</span>
                 <FiCopy className="flex ml-3 items-center text-lg sm:text-xl" />
