@@ -53,6 +53,8 @@ function Home() {
           content="Funcionalidades criadas com tailwind para mais fácil entendimento e prontas para uso em qualquer design responsivo."
         />
         <meta name="og:image" content="../images/twitter.jpg" />
+        <meta name="og:url" content="https://dev-opencode.vercel.app/" />
+        <meta name="og:type" content="article" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
