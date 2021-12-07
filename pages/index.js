@@ -1,13 +1,27 @@
 import Head from "next/head";
-import CodeBlock from "../components/code_block";
-import CodeNav from "../components/code_nav";
+import CodeBlock from "../components/codeBlock";
+import CodeNav from "../components/codeNav";
+import CodeSingle from "../components/codeSinglePage";
 import Navbar from "../components/navbar";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { BsArrowRightShort } from "react-icons/bs";
+import { FiCopy } from "react-icons/fi";
+import { AiOutlineHome, AiOutlineUser, AiOutlineMail } from "react-icons/ai";
+import {
+  TiSocialLinkedin,
+  TiSocialTwitter,
+  TiSocialInstagram,
+} from "react-icons/ti";
+import { ImPhone, ImLocation, ImMic } from "react-icons/im";
 
 function Home() {
   const themes = ["theme-green", "theme-gray", "theme-blue"];
   const [selectedTheme, setselectedTheme] = useState(themes[0]);
+
+  const copy = (str) => {
+    navigator.clipboard.writeText(str);
+  };
 
   return (
     <div className="">
@@ -660,7 +674,7 @@ function Home() {
           />
         </section>
 
-        <section className=" w-full pb-40 overflow-hidden">
+        <section className="w-full pb-40 overflow-hidden">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10">
             Google Fonts
           </h1>
@@ -1683,6 +1697,238 @@ function Home() {
           />
         </section>
 
+        <section className=" w-full pb-40 overflow-hidden">
+          <div className="max-w-7xl z-50 mx-auto px-6 sm:px-10">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10">
+              React-icons
+            </h1>
+
+            <div className="sm:flex flex-wrap">
+              <a
+                href="https://react-icons.github.io/react-icons/"
+                target="_blank"
+                className="text-purple-800 w-full border-purple-800 border flex justify-center items-center cursor-pointer 
+                text-sm sm:text-base leading-6 font-semibold py-2 px-6 mb-4 rounded-xl shadow-md duration-100
+                sm:w-auto sm:py-3 sm:mb-6 sm:mr-3 sm:shadow-lg
+                hover:text-white hover:bg-gradient-to-br hover:from-purple-600 hover:to-purple-900"
+              >
+                Acesse o site
+                <BsArrowRightShort className="flex ml-3 items-center text-lg sm:text-xl" />
+              </a>
+              <button
+                type="button"
+                onClick={() => copy("npm i react-icons")}
+                className="text-gray-400 w-full border-gray-400 border flex justify-center items-center cursor-pointer 
+                text-sm sm:text-base leading-6 font-semibold py-2 px-6 mb-4 rounded-xl shadow-md duration-200
+                sm:w-auto sm:py-3 sm:mb-6 sm:mr-3 sm:shadow-lg
+                hover:text-gray-900"
+              >
+                <span className="text-gray-900">$ npm i react-icons</span>
+                <FiCopy className="flex ml-3 items-center text-lg sm:text-xl" />
+              </button>
+            </div>
+          </div>
+          <CodeSingle
+            from={"from-purple-600"}
+            to={"to-purple-300"}
+            cardContent={
+              <div className="gap-6 grid grid-cols-3 grid-rows-3 justify-center items-center">
+                <motion.div
+                  whileHover={{ scale: 1.2 }}
+                  className="justify-center flex text-2xl md:text-3xl text-purple-900"
+                >
+                  <AiOutlineHome />
+                </motion.div>
+                <motion.div
+                  whileHover={{ scale: 1.2 }}
+                  className="justify-center flex text-2xl md:text-3xl text-purple-900"
+                >
+                  <AiOutlineUser />
+                </motion.div>
+                <motion.div
+                  whileHover={{ scale: 1.2 }}
+                  className="justify-center flex text-2xl md:text-3xl text-purple-900"
+                >
+                  <AiOutlineMail />
+                </motion.div>
+                <motion.div
+                  whileHover={{ scale: 1.2 }}
+                  className="justify-center flex text-2xl md:text-3xl text-purple-900"
+                >
+                  <TiSocialLinkedin />
+                </motion.div>
+                <motion.div
+                  whileHover={{ scale: 1.2 }}
+                  className="justify-center flex text-2xl md:text-3xl text-purple-900"
+                >
+                  <TiSocialTwitter />
+                </motion.div>
+                <motion.div
+                  whileHover={{ scale: 1.2 }}
+                  className="justify-center flex text-2xl md:text-3xl text-purple-900"
+                >
+                  <TiSocialInstagram />
+                </motion.div>
+                <motion.div
+                  whileHover={{ scale: 1.2 }}
+                  className="justify-center flex text-2xl md:text-3xl text-purple-900"
+                >
+                  <ImPhone />
+                </motion.div>
+                <motion.div
+                  whileHover={{ scale: 1.2 }}
+                  className="justify-center flex text-2xl md:text-3xl text-purple-900"
+                >
+                  <ImLocation />
+                </motion.div>
+                <motion.div
+                  whileHover={{ scale: 1.2 }}
+                  className="justify-center flex text-2xl md:text-3xl text-purple-900"
+                >
+                  <ImMic />
+                </motion.div>
+              </div>
+            }
+            background={"bg-purple-900"}
+            count={
+              <div className="pb-2">
+                <span className="block">1</span>
+                <span className="block">2</span>
+                <span className="block">3</span>
+                <span className="block">4</span>
+                <span className="block">5</span>
+                <span className="block">6</span>
+                <span className="block">7</span>
+                <span className="block">8</span>
+                <span className="block">9</span>
+                <span className="block">10</span>
+                <span className="block">11</span>
+                <span className="block">12</span>
+                <span className="block">13</span>
+                <span className="block">14</span>
+              </div>
+            }
+            code={
+              <code className="flex-auto relative block pt-4 mb-1 pl-2 ml-2 mr-2 overflow-x-auto scroll">
+                <span className="text-code-import block text-left">
+                  import
+                  <span className="text-code-text">{" { "}</span>
+                  <span className="text-code-attr-name">AiOutlineHome</span>
+                  <span className="text-code-text">{" } "}</span>
+                  from
+                  <span className="text-code-attr-value">
+                    {" "}
+                    "react-icons/ai"
+                  </span>
+                  <span className="text-code-text">{";"}</span>
+                </span>
+
+                <span className="text-code-import block text-left">
+                  import
+                  <span className="text-code-text">{" { "}</span>
+                  <span className="text-code-attr-name">TiSocialInstagram</span>
+                  <span className="text-code-text">{" } "}</span>
+                  from
+                  <span className="text-code-attr-value">
+                    {" "}
+                    "react-icons/ti"
+                  </span>
+                  <span className="text-code-text">{";"}</span>
+                </span>
+
+                <span className="text-code-tag block text-left"> </span>
+
+                <span className="text-code-import block text-left">
+                  export default
+                  <span className="text-code-tag"> function </span>
+                  <span className="text-code-function">Index</span>
+                  <span className="text-code-text">{"() {"}</span>
+                </span>
+
+                <span className="text-code-import block text-left">
+                  {"  "}
+                  return <span className="text-code-text"> (</span>
+                </span>
+
+                <span className="text-code-brakket block text-left">
+                  {"  "}
+                  {"  "}
+                  {"<"}
+                  <span className="text-code-tag">div </span>
+                  <span className="text-code-attr-name">className</span>
+                  <span className="text-code-text">=</span>
+                  <span className="text-code-attr-value">""</span>
+                  {">"}
+                </span>
+
+                <span className="text-code-brakket block text-left">
+                  {"  "}
+                  {"  "}
+                  {"  "}
+                  {"<"}
+                  <span className="text-code-tag">div </span>
+                  <span className="text-code-attr-name">className</span>
+                  <span className="text-code-text">=</span>
+                  <span className="text-code-attr-value">
+                    "text-2xl text-black p-6"
+                  </span>
+                  {">"}
+                </span>
+
+                <span className="text-code-brakket block text-left">
+                  {"  "}
+                  {"  "}
+                  {"  "}
+                  {"  "}
+                  {"<"}
+                  <span className="text-code-component">AiOutlineHome </span>
+                  {"/>"}
+                </span>
+
+                <span className="text-code-brakket block text-left">
+                  {"  "}
+                  {"  "}
+                  {"  "}
+                  {"</"}
+                  <span className="text-code-tag">div </span>
+                  {">"}
+                </span>
+
+                <span className="text-code-brakket block text-left">
+                  {"  "}
+                  {"  "}
+                  {"  "}
+                  {"<"}
+                  <span className="text-code-component">
+                    TiSocialInstagram{" "}
+                  </span>
+                  <span className="text-code-attr-name">className</span>
+                  <span className="text-code-text">=</span>
+                  <span className="text-code-attr-value">
+                    "text-4xl text-purple m-8"
+                  </span>
+                  {">"}
+                </span>
+
+                <span className="text-code-brakket block text-left">
+                  {"  "}
+                  {"  "}
+                  {"</"}
+                  <span className="text-code-tag">div </span>
+                  {">"}
+                </span>
+
+                <span className="text-code-text block text-left">
+                  {"  "}
+                  );
+                </span>
+
+                <span className="text-code-text block text-left">{"}"}</span>
+              </code>
+            }
+          />
+        </section>
+
         <section className="overflow-hidden w-full h-auto mb-40 flex flex-col justify-center">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10">
             Em breve
@@ -1717,7 +1963,6 @@ function Home() {
                       <span className="block">9</span>
                       <span className="block">10</span>
                       <span className="block">11</span>
-                      <span className="block">12</span>
                     </div>
                     <code className="flex-auto relative text-code-text block pt-2 mb-1 pl-2 ml-2 mr-2 overflow-auto scroll">
                       <span className="text-code-import block text-left">
@@ -1739,7 +1984,7 @@ function Home() {
                         <span className="text-code-component">Próxima </span>
                         <span className="text-code-attr-name">feature</span>
                         <span className="text-code-text">=</span>
-                        <span className="text-code-tag">{"{react-icons}"}</span>
+                        <span className="text-code-tag">{"{SEO}"}</span>
                         {" />"}
                       </span>
 
@@ -1762,18 +2007,6 @@ function Home() {
                         <span className="text-code-tag">span</span>
                         {">"}
                         <span className="text-code-text"> framer-motion </span>
-                        {"<"}/<span className="text-code-tag">span</span>
-                        {">"}
-                      </span>
-
-                      <span className="text-code-brakket block text-left">
-                        {"  "}
-                        {"  "}
-                        {"  "}
-                        {"<"}
-                        <span className="text-code-tag">span</span>
-                        {">"}
-                        <span className="text-code-text"> SEO </span>
                         {"<"}/<span className="text-code-tag">span</span>
                         {">"}
                       </span>
