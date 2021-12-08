@@ -1,6 +1,12 @@
+import { motion } from "framer-motion";
+
 export default function Code({ background, count, code }) {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.5, delay: 0.8 }}
       className="relative w-full col-start-1 col-end-4 row-start-3 row-end-4 self-center mb-8 overflow-hidden
              lg:w-auto md:px-8 lg:px-0 lg:col-start-3 lg:col-end-4 lg:row-start-2 lg:row-end-5 lg:mb-0"
     >
@@ -32,6 +38,6 @@ export default function Code({ background, count, code }) {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

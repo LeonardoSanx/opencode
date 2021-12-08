@@ -1,6 +1,12 @@
+import { motion } from "framer-motion";
+
 export default function Card({ children }) {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.5, delay: 0.7 }}
       className="z-10 col-start-2 col-end-3 row-start-2 row-end-3 self-center pr-8 pt-6 
               sm:px-6
               md:px-8 md:pt-8 
@@ -15,6 +21,6 @@ export default function Card({ children }) {
       >
         {children}
       </div>
-    </div>
+    </motion.div>
   );
 }

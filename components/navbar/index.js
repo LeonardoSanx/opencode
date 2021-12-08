@@ -11,7 +11,13 @@ export default function Navbar() {
   const width = useTransform(x, [0, -300], ["100vw", `${x} * (-1)`]);
 
   return (
-    <div className="relative bg-green-200 rounded-lg mb-10 flex shadow-lg">
+    <motion.div
+      initial={{ y: "200", opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.4, delay: 0.2 }}
+      className="relative bg-green-200 rounded-lg mb-10 flex shadow-lg"
+    >
       <motion.div
         style={{ width: width }}
         className="relative flex justify-center"
@@ -93,6 +99,6 @@ export default function Navbar() {
         <IoIosArrowBack className="inline text-white text-xl" />
         <IoIosArrowForward className="inline text-white text-xl" />
       </motion.div> */}
-    </div>
+    </motion.div>
   );
 }

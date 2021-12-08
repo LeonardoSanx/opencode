@@ -183,10 +183,18 @@ function Home() {
         </section>
 
         <section className="w-full pb-40 overflow-hidden">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-12 mb-8 sm:mt-14 sm:mb-10">
-            Navbar Responsiva
-          </h1>
-          <Navbar />
+          <div>
+            <motion.h1
+              initial={{ y: "200", opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4 }}
+              className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-12 mb-8 sm:mt-14 sm:mb-10"
+            >
+              Navbar Responsiva
+            </motion.h1>
+            <Navbar />
+          </div>
           <CodeNav
             from={"from-green-600"}
             to={"to-green-300"}
@@ -793,9 +801,15 @@ function Home() {
         </section>
 
         <section className="w-full pb-40 overflow-hidden">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10">
+          <motion.h1
+            initial={{ y: "200", opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10"
+          >
             Google Fonts
-          </h1>
+          </motion.h1>
           <CodeBlock
             from={"from-blue-600"}
             to={"to-blue-300"}
@@ -1002,9 +1016,15 @@ function Home() {
         </section>
 
         <section className="w-full pb-40 overflow-hidden">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-12 mb-8 sm:mt-14 sm:mb-10">
+          <motion.h1
+            initial={{ y: "200", opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-12 mb-8 sm:mt-14 sm:mb-10"
+          >
             Custom Themes
-          </h1>
+          </motion.h1>
           <CodeNav
             from={"from-yellow-600"}
             to={"to-yellow-300"}
@@ -1817,12 +1837,22 @@ function Home() {
 
         <section className=" w-full pb-40 overflow-hidden">
           <div className="max-w-7xl z-50 mx-auto px-6 sm:px-10">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10">
+            <motion.h1
+              initial={{ y: "200", opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4 }}
+              className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10"
+            >
               React-icons
-            </h1>
+            </motion.h1>
 
             <div className="sm:flex flex-wrap">
-              <a
+              <motion.a
+                initial={{ y: "200", opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: 0.1 }}
                 href="https://react-icons.github.io/react-icons/"
                 rel="noopener"
                 target="_blank"
@@ -1833,8 +1863,12 @@ function Home() {
               >
                 Acesse o site
                 <BsArrowRightShort className="flex ml-3 items-center text-lg sm:text-xl" />
-              </a>
-              <button
+              </motion.a>
+              <motion.button
+                initial={{ y: "200", opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: 0.2 }}
                 type="button"
                 onClick={() => copy("npm i react-icons")}
                 className="text-gray-400 w-full border-gray-400 border flex justify-center items-center cursor-pointer 
@@ -1844,7 +1878,7 @@ function Home() {
               >
                 <span className="text-gray-900">$ npm i react-icons</span>
                 <FiCopy className="flex ml-3 items-center text-lg sm:text-xl" />
-              </button>
+              </motion.button>
             </div>
           </div>
           <CodeSingle
@@ -2049,10 +2083,20 @@ function Home() {
         </section>
 
         <section className="overflow-hidden w-full h-auto mb-40 flex flex-col justify-center">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10">
+          <motion.h1
+            initial={{ y: "200", opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10"
+          >
             Em breve
-          </h1>
-          <div
+          </motion.h1>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.5 }}
             className="relative w-full max-w-2xl self-center md:rounded-xl overflow-hidden
           bg-black text-code-text shadow-2xl flex flex-col h-auto"
           >
@@ -2188,7 +2232,7 @@ function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </section>
       </main>
     </div>
