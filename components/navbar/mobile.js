@@ -1,7 +1,7 @@
 export default function Mobile({ navHeight }) {
   return (
     <div
-      className={`absolute top-0 ${navHeight} overflow-hidden w-full z-30 bg-blue-400 py-2 md:hidden transition-all duration-500`}
+      className={`absolute top-0 ${navHeight} overflow-hidden w-full z-30 bg-white py-2 md:hidden transition-all duration-500`}
     >
       <nav className="w-full">
         <ul className="flex justify-center flex-wrap items-center">

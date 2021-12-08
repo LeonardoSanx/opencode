@@ -84,6 +84,7 @@ function Home() {
             <div className="flex flex-wrap">
               <a
                 href="https://tailwindcss.com/"
+                rel="noopener"
                 target="_blank"
                 className="w-full sm:w-auto flex-none text-center bg-gradient-to-br from-blue-300 to-blue-700 text-gray-800 hover:text-white text-base sm:text-lg leading-6 font-semibold py-2 sm:py-3 px-6 rounded-xl shadow-lg duration-100"
               >
@@ -1735,6 +1736,7 @@ function Home() {
             <div className="sm:flex flex-wrap">
               <a
                 href="https://react-icons.github.io/react-icons/"
+                rel="noopener"
                 target="_blank"
                 className="text-purple-800 w-full border-purple-800 border flex justify-center items-center cursor-pointer 
                 text-sm sm:text-base leading-6 font-semibold py-2 px-6 mb-4 rounded-xl shadow-md duration-100
