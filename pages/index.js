@@ -188,7 +188,7 @@ function Home() {
               initial={{ y: "200", opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.4 }}
+              transition={{ duration: 0.5 }}
               className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-12 mb-8 sm:mt-14 sm:mb-10"
             >
               Navbar Responsiva
@@ -805,7 +805,7 @@ function Home() {
             initial={{ y: "200", opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.5 }}
             className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10"
           >
             Google Fonts
@@ -1020,7 +1020,7 @@ function Home() {
             initial={{ y: "200", opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.5 }}
             className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-12 mb-8 sm:mt-14 sm:mb-10"
           >
             Custom Themes
@@ -1063,7 +1063,7 @@ function Home() {
                     exit={{ opacity: 0 }}
                     transition={{ duration: 0.2 }}
                   >
-                    <div className={`${selectedTheme} mt-4`}>
+                    <div className={`${selectedTheme} max-h-72 mt-4`}>
                       <div className="flex w-full h-auto text-card-text text-sm sm:text-base bg-card-card rounded-xl">
                         <img
                           src="../images/plant.jpg"
@@ -1841,7 +1841,7 @@ function Home() {
               initial={{ y: "200", opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.4 }}
+              transition={{ duration: 0.5 }}
               className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10"
             >
               React-icons
@@ -1852,7 +1852,7 @@ function Home() {
                 initial={{ y: "200", opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: 0.1 }}
+                transition={{ duration: 0.4, delay: 0.2 }}
                 href="https://react-icons.github.io/react-icons/"
                 rel="noopener"
                 target="_blank"
@@ -1868,7 +1868,7 @@ function Home() {
                 initial={{ y: "200", opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: 0.2 }}
+                transition={{ duration: 0.4, delay: 0.3 }}
                 type="button"
                 onClick={() => copy("npm i react-icons")}
                 className="text-gray-400 w-full border-gray-400 border flex justify-center items-center cursor-pointer 
@@ -1887,54 +1887,90 @@ function Home() {
             cardContent={
               <div className="gap-6 grid grid-cols-3 grid-rows-3 justify-center items-center">
                 <motion.div
+                  initial={{ y: "200", opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.3, delay: 1 }}
                   whileHover={{ scale: 1.2 }}
                   className="justify-center flex text-2xl md:text-3xl text-purple-900"
                 >
                   <AiOutlineHome />
                 </motion.div>
                 <motion.div
+                  initial={{ y: "200", opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.3, delay: 1.1 }}
                   whileHover={{ scale: 1.2 }}
                   className="justify-center flex text-2xl md:text-3xl text-purple-900"
                 >
                   <AiOutlineUser />
                 </motion.div>
                 <motion.div
+                  initial={{ y: "200", opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.3, delay: 1.2 }}
                   whileHover={{ scale: 1.2 }}
                   className="justify-center flex text-2xl md:text-3xl text-purple-900"
                 >
                   <AiOutlineMail />
                 </motion.div>
                 <motion.div
+                  initial={{ y: "200", opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.3, delay: 1.3 }}
                   whileHover={{ scale: 1.2 }}
                   className="justify-center flex text-2xl md:text-3xl text-purple-900"
                 >
                   <TiSocialLinkedin />
                 </motion.div>
                 <motion.div
+                  initial={{ y: "200", opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.3, delay: 1.4 }}
                   whileHover={{ scale: 1.2 }}
                   className="justify-center flex text-2xl md:text-3xl text-purple-900"
                 >
                   <TiSocialTwitter />
                 </motion.div>
                 <motion.div
+                  initial={{ y: "200", opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.3, delay: 1.5 }}
                   whileHover={{ scale: 1.2 }}
                   className="justify-center flex text-2xl md:text-3xl text-purple-900"
                 >
                   <TiSocialInstagram />
                 </motion.div>
                 <motion.div
+                  initial={{ y: "200", opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.3, delay: 1.6 }}
                   whileHover={{ scale: 1.2 }}
                   className="justify-center flex text-2xl md:text-3xl text-purple-900"
                 >
                   <ImPhone />
                 </motion.div>
                 <motion.div
+                  initial={{ y: "200", opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.3, delay: 1.7 }}
                   whileHover={{ scale: 1.2 }}
                   className="justify-center flex text-2xl md:text-3xl text-purple-900"
                 >
                   <ImLocation />
                 </motion.div>
                 <motion.div
+                  initial={{ y: "200", opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.3, delay: 1.8 }}
                   whileHover={{ scale: 1.2 }}
                   className="justify-center flex text-2xl md:text-3xl text-purple-900"
                 >
@@ -2087,7 +2123,7 @@ function Home() {
             initial={{ y: "200", opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.5 }}
             className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10"
           >
             Em breve
@@ -2096,7 +2132,7 @@ function Home() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.5 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
             className="relative w-full max-w-2xl self-center md:rounded-xl overflow-hidden
           bg-black text-code-text shadow-2xl flex flex-col h-auto"
           >

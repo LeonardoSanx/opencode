@@ -15,7 +15,7 @@ export default function Navbar() {
       initial={{ y: "200", opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.4, delay: 0.2 }}
+      transition={{ duration: 0.5, delay: 0.2 }}
       className="relative bg-green-200 rounded-lg mb-10 flex shadow-lg"
     >
       <motion.div
