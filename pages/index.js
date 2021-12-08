@@ -72,8 +72,96 @@ function Home() {
       <main className="flex flex-col w-full items-center content-center justify-center min-h-screen">
         <section className="relative w-full py-28 overflow-hidden justify-center">
           <div className="max-w-7xl z-50 mx-auto pb-10 px-6 sm:px-10">
-            <h1 className="text-4xl sm:text-6xl lg:text-7xl leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10">
-              Componentes, configurações e códigos explícitos com Tailwind.
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10">
+              <motion.div
+                animate={{
+                  color: [
+                    "rgba(0,0,0,0)",
+                    "rgba(0,0,0,0)",
+                    "rgba(17, 24, 39,1)",
+                    "rgba(17, 24, 39,1)",
+                    "rgba(17, 24, 39,1)",
+                    "rgba(17, 24, 39,1)",
+                    "rgba(0,0,0,0)",
+                  ],
+                }}
+                transition={{
+                  duration: 8,
+                  times: [
+                    0,
+                    0.85 / 3,
+                    0.85 / 3 + 0.05,
+                    (2 * 0.85) / 3 + 0.05,
+                    2 * (0.85 / 3 + 0.05),
+                    (3 * 0.85) / 3 + 2 * 0.05,
+                    1,
+                  ],
+                  repeat: Infinity,
+                }}
+                className="inline-block pb-2 sm:pb-4 bg-clip-text bg-gradient-to-r from-blue-600 to-green-400"
+              >
+                Componentes,
+              </motion.div>{" "}
+              <motion.div
+                animate={{
+                  color: [
+                    "rgba(17, 24, 39,1)",
+                    "rgba(17, 24, 39,1)",
+                    "rgba(0,0,0,0)",
+                    "rgba(0,0,0,0)",
+                    "rgba(17, 24, 39,1)",
+                    "rgba(17, 24, 39,1)",
+                    "rgba(17, 24, 39,1)",
+                  ],
+                }}
+                transition={{
+                  duration: 8,
+                  times: [
+                    0,
+                    0.85 / 3,
+                    0.85 / 3 + 0.05,
+                    (2 * 0.85) / 3 + 0.05,
+                    2 * (0.85 / 3 + 0.05),
+                    (3 * 0.85) / 3 + 2 * 0.05,
+                    1,
+                  ],
+                  repeat: Infinity,
+                }}
+                className="inline-block pb-2 sm:pb-4 bg-clip-text bg-gradient-to-r from-purple-800 to-pink-600"
+              >
+                configurações
+              </motion.div>{" "}
+              e{" "}
+              <motion.div
+                animate={{
+                  color: [
+                    "rgba(17, 24, 39,1)",
+                    "rgba(17, 24, 39,1)",
+                    "rgba(17, 24, 39,1)",
+                    "rgba(17, 24, 39,1)",
+                    "rgba(0,0,0,0)",
+                    "rgba(0,0,0,0)",
+                    "rgba(17, 24, 39,1)",
+                  ],
+                }}
+                transition={{
+                  duration: 8,
+                  times: [
+                    0,
+                    0.85 / 3,
+                    0.85 / 3 + 0.05,
+                    (2 * 0.85) / 3 + 0.05,
+                    2 * (0.85 / 3 + 0.05),
+                    (3 * 0.85) / 3 + 2 * 0.05,
+                    1,
+                  ],
+                  repeat: Infinity,
+                }}
+                className="inline-block pb-2 sm:pb-4 bg-clip-text bg-gradient-to-r from-red-500 to-yellow-400"
+              >
+                códigos
+              </motion.div>{" "}
+              explícitos com Tailwind.
             </h1>
             <p className="max-w-screen-lg text-lg sm:text-2xl sm:leading-10 font-medium mb-10 sm:mb-11">
               Criado para mais
