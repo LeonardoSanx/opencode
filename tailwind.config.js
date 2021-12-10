@@ -28,16 +28,6 @@ module.exports = {
       },
 
       textColor: {
-        code: {
-          import: withOpacity("--color-import"),
-          tag: withOpacity("--color-tag"),
-          "attr-name": withOpacity("--color-attr-name"),
-          "attr-value": withOpacity("--color-attr-value"),
-          component: withOpacity("--color-component"),
-          function: withOpacity("--color-function"),
-          text: withOpacity("--color-code-text"),
-          brakket: withOpacity("--color-brakket"),
-        },
         card: {
           title: withOpacity("--color-title"),
           text: withOpacity("--color-card-text"),

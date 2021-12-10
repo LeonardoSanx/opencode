@@ -3,6 +3,7 @@ import CodeBlock from "../components/codeBlock";
 import CodeNav from "../components/codeNav";
 import CodeSingle from "../components/codeSinglePage";
 import Navbar from "../components/navbar";
+import Water from "../components/water";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { BsArrowRightShort } from "react-icons/bs";
@@ -257,145 +258,139 @@ function Home() {
                 ],
                 code: [
                   <code className="flex-auto relative block pt-2 mb-1 pl-2 ml-2 mr-2 overflow-x-auto scroll">
-                    <span className="text-code-import block text-left">
+                    <span className="text-fuchsia-400 block text-left">
                       import
-                      <span className="text-code-text">{" { "}</span>
-                      <span className="text-code-attr-name">useState</span>
-                      <span className="text-code-text">{" } "}</span>
+                      <span className="text-neutral-100">{" { "}</span>
+                      <span className="text-sky-300">useState</span>
+                      <span className="text-neutral-100">{" } "}</span>
                       from
-                      <span className="text-code-attr-value"> "react"</span>
-                      <span className="text-code-text">{";"}</span>
+                      <span className="text-red-400"> "react"</span>
+                      <span className="text-neutral-100">{";"}</span>
                     </span>
 
-                    <span className="text-code-import block text-left">
+                    <span className="text-fuchsia-400 block text-left">
                       import
-                      <span className="text-code-attr-name"> Mobile </span>
+                      <span className="text-sky-300"> Mobile </span>
                       from
-                      <span className="text-code-attr-value"> "./mobile"</span>
-                      <span className="text-code-text">{";"}</span>
+                      <span className="text-red-400"> "./mobile"</span>
+                      <span className="text-neutral-100">{";"}</span>
                     </span>
 
-                    <span className="text-code-import block text-left">
+                    <span className="text-fuchsia-400 block text-left">
                       import
-                      <span className="text-code-text">{" { "}</span>
-                      <span className="text-code-attr-name">BiMenu, Bix</span>
-                      <span className="text-code-text">{" } "}</span>
+                      <span className="text-neutral-100">{" { "}</span>
+                      <span className="text-sky-300">BiMenu, Bix</span>
+                      <span className="text-neutral-100">{" } "}</span>
                       from
-                      <span className="text-code-attr-value">
-                        {" "}
-                        "react-icons/bi"
-                      </span>
-                      <span className="text-code-text">{";"}</span>
+                      <span className="text-red-400"> "react-icons/bi"</span>
+                      <span className="text-neutral-100">{";"}</span>
                     </span>
 
-                    <span className="text-code-tag block text-left"> </span>
+                    <span className="text-blue-500 block text-left"> </span>
 
-                    <span className="text-code-import block text-left">
+                    <span className="text-fuchsia-400 block text-left">
                       export default
-                      <span className="text-code-tag"> function </span>
-                      <span className="text-code-function">Navbar</span>
-                      <span className="text-code-text">{"() {"}</span>
+                      <span className="text-blue-500"> function </span>
+                      <span className="text-yellow-200">Navbar</span>
+                      <span className="text-neutral-100">{"() {"}</span>
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
-                      <span className="text-code-tag">const </span>[
-                      <span className="text-code-tag">navPosition</span>,
-                      <span className="text-code-function">
-                        {" "}
-                        setnavPosition
-                      </span>
-                      ] = <span className="text-code-function">useState</span>(
-                      <span className="text-code-attr-value">"-top-full"</span>
+                      <span className="text-blue-500">const </span>[
+                      <span className="text-blue-500">navPosition</span>,
+                      <span className="text-yellow-200"> setnavPosition</span>]
+                      = <span className="text-yellow-200">useState</span>(
+                      <span className="text-red-400">"-top-full"</span>
                       );
                     </span>
 
-                    <span className="text-code-import block text-left">
+                    <span className="text-fuchsia-400 block text-left">
                       {"  "}
-                      return <span className="text-code-text"> (</span>
+                      return <span className="text-neutral-100"> (</span>
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"<"}
-                      <span className="text-code-tag">div </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">""</span>
+                      <span className="text-blue-500">div </span>
+                      <span className="text-sky-300">className</span>
+                      <span className="text-neutral-100">=</span>
+                      <span className="text-red-400">""</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"<"}
-                      <span className="text-code-component">Mobile </span>
-                      <span className="text-code-attr-name">navPosition</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-tag">{"{navPosition}"}</span>
+                      <span className="text-emerald-400">Mobile </span>
+                      <span className="text-sky-300">navPosition</span>
+                      <span className="text-neutral-100">=</span>
+                      <span className="text-blue-500">{"{navPosition}"}</span>
                       {" />"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"<"}
-                      <span className="text-code-tag">div </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">
+                      <span className="text-blue-500">div </span>
+                      <span className="text-sky-300">className</span>
+                      <span className="text-neutral-100">=</span>
+                      <span className="text-red-400">
                         "sticky top-0 left-0 w-full z-30 bg-white shadow-lg
                         justify-center"
                       </span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"<"}
-                      <span className="text-code-tag">div </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">
+                      <span className="text-blue-500">div </span>
+                      <span className="text-sky-300">className</span>
+                      <span className="text-neutral-100">=</span>
+                      <span className="text-red-400">
                         "max-w-6xl z-50 mx-auto px-10"
                       </span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"<"}
-                      <span className="text-code-tag">div </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">
+                      <span className="text-blue-500">div </span>
+                      <span className="text-sky-300">className</span>
+                      <span className="text-neutral-100">=</span>
+                      <span className="text-red-400">
                         "flex items-center justify-between h-16 sm:h-20"
                       </span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"<"}
-                      <span className="text-code-tag">a </span>
-                      <span className="text-code-attr-name">href</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">"/"</span>
+                      <span className="text-blue-500">a </span>
+                      <span className="text-sky-300">href</span>
+                      <span className="text-neutral-100">=</span>
+                      <span className="text-red-400">"/"</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-text text-opacity-80 block text-left">
+                    <span className="text-neutral-100 text-opacity-80 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
@@ -404,48 +399,48 @@ function Home() {
                       {"{!-- Logo --}"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"</"}
-                      <span className="text-code-tag">a</span>
+                      <span className="text-blue-500">a</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"<"}
-                      <span className="text-code-tag">nav </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">
+                      <span className="text-blue-500">nav </span>
+                      <span className="text-sky-300">className</span>
+                      <span className="text-neutral-100">=</span>
+                      <span className="text-red-400">
                         "hidden md:flex md:flex-grow"
                       </span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"<"}
-                      <span className="text-code-tag">ul </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">
+                      <span className="text-blue-500">ul </span>
+                      <span className="text-sky-300">className</span>
+                      <span className="text-neutral-100">=</span>
+                      <span className="text-red-400">
                         "flex flex-grow justify-end flex-wrap items-center"
                       </span>
                       {">"}
                     </span>
 
-                    <span className="text-code-text text-opacity-80 block text-left">
+                    <span className="text-neutral-100 text-opacity-80 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
@@ -455,59 +450,59 @@ function Home() {
                       {"{!-- Links --}"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"</"}
-                      <span className="text-code-tag">ul</span>
+                      <span className="text-blue-500">ul</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"</"}
-                      <span className="text-code-tag">nav</span>
+                      <span className="text-blue-500">nav</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"<"}
-                      <span className="text-code-tag">div </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">
+                      <span className="text-blue-500">div </span>
+                      <span className="text-sky-300">className</span>
+                      <span className="text-neutral-100">=</span>
+                      <span className="text-red-400">
                         "flex-col w-5 md:hidden cursor-pointer text-2xl
                         sm:text-3xl transition-all duration-500"
                       </span>
                       {">"}
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
-                      <span className="text-code-attr-name">onClick</span>=
-                      <span className="text-code-tag">{"{"}</span>
+                      <span className="text-sky-300">onClick</span>=
+                      <span className="text-blue-500">{"{"}</span>
                       ()
-                      <span className="text-code-tag">{" => "}</span>
+                      <span className="text-blue-500">{" => "}</span>
                       {"{"}
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
@@ -515,12 +510,12 @@ function Home() {
                       {"  "}
                       {"  "}
                       {"  "}
-                      <span className="text-code-tag">navPosition </span>
+                      <span className="text-blue-500">navPosition </span>
                       ==
-                      <span className="text-code-attr-value"> "top-0"</span>
+                      <span className="text-red-400"> "top-0"</span>
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
@@ -530,12 +525,11 @@ function Home() {
                       {"  "}
                       {"  "}
                       {"? "}
-                      <span className="text-code-function">setnavPosition</span>
-                      (<span className="text-code-attr-value">"-top-full"</span>
-                      )
+                      <span className="text-yellow-200">setnavPosition</span>(
+                      <span className="text-red-400">"-top-full"</span>)
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
@@ -545,12 +539,12 @@ function Home() {
                       {"  "}
                       {"  "}
                       {": "}
-                      <span className="text-code-function">setnavPosition</span>
-                      (<span className="text-code-attr-value">"-top-0"</span>
+                      <span className="text-yellow-200">setnavPosition</span>(
+                      <span className="text-red-400">"-top-0"</span>
                       );
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
@@ -559,10 +553,10 @@ function Home() {
                       {"  "}
                       {"  "}
                       {"}"}
-                      <span className="text-code-tag">{"}"}</span>
+                      <span className="text-blue-500">{"}"}</span>
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
@@ -572,7 +566,7 @@ function Home() {
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
@@ -580,21 +574,21 @@ function Home() {
                       {"  "}
                       {"  "}
                       {"  "}
-                      <span className="text-code-tag">{"{navPosition"}</span>
-                      <span className="text-code-text"> == </span>
-                      <span className="text-code-attr-value">"top-0"</span>
-                      <span className="text-code-text"> ? </span>
+                      <span className="text-blue-500">{"{navPosition"}</span>
+                      <span className="text-neutral-100"> == </span>
+                      <span className="text-red-400">"top-0"</span>
+                      <span className="text-neutral-100"> ? </span>
                       {"<"}
-                      <span className="text-code-component">BiX</span>
+                      <span className="text-emerald-400">BiX</span>
                       {" />"}
-                      <span className="text-code-text"> : </span>
+                      <span className="text-neutral-100"> : </span>
                       {"<"}
-                      <span className="text-code-component">BiMenu</span>
+                      <span className="text-emerald-400">BiMenu</span>
                       {" />"}
-                      <span className="text-code-tag">{"}"}</span>
+                      <span className="text-blue-500">{"}"}</span>
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
@@ -602,54 +596,54 @@ function Home() {
                       {"  "}
                       {"  "}
                       {"</"}
-                      <span className="text-code-tag">div</span>
+                      <span className="text-blue-500">div</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"</"}
-                      <span className="text-code-tag">div</span>
+                      <span className="text-blue-500">div</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"</"}
-                      <span className="text-code-tag">div</span>
+                      <span className="text-blue-500">div</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"</"}
-                      <span className="text-code-tag">div</span>
+                      <span className="text-blue-500">div</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"</"}
-                      <span className="text-code-tag">div</span>
+                      <span className="text-blue-500">div</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       );
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"}"}
                     </span>
                   </code>,
@@ -677,38 +671,38 @@ function Home() {
                 ],
                 code: [
                   <code className="flex-auto relative block pt-2 mb-1 pl-2 ml-2 mr-2 overflow-x-auto scroll">
-                    <span className="text-code-import block text-left">
+                    <span className="text-fuchsia-400 block text-left">
                       export default
-                      <span className="text-code-tag"> function </span>
-                      <span className="text-code-function">Mobile</span>
-                      <span className="text-code-text">{"() {"}</span>
+                      <span className="text-blue-500"> function </span>
+                      <span className="text-yellow-200">Mobile</span>
+                      <span className="text-neutral-100">{"() {"}</span>
                     </span>
 
-                    <span className="text-code-import block text-left">
+                    <span className="text-fuchsia-400 block text-left">
                       {"  "}
-                      return <span className="text-code-text"> (</span>
+                      return <span className="text-neutral-100"> (</span>
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"<"}
-                      <span className="text-code-tag">div </span>
+                      <span className="text-blue-500">div </span>
                     </span>
 
-                    <span className="text-code-attr-name block text-left">
+                    <span className="text-sky-300 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       className
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-tag">
+                      <span className="text-neutral-100">=</span>
+                      <span className="text-blue-500">
                         {"{"}
-                        <span className="text-code-attr-value">`absolute</span>
+                        <span className="text-red-400">`absolute</span>
                         {" %{"}
-                        <span className="text-code-attr-name">navPosition</span>
+                        <span className="text-sky-300">navPosition</span>
                         {"} "}
-                        <span className="text-code-attr-value">
+                        <span className="text-red-400">
                           w-full z-30 bg-white pb-2 mt-24 md:hidden
                           transition-all duration-500`
                         </span>
@@ -716,40 +710,40 @@ function Home() {
                       </span>
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"<"}
-                      <span className="text-code-tag">nav </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">"w-full"</span>
+                      <span className="text-blue-500">nav </span>
+                      <span className="text-sky-300">className</span>
+                      <span className="text-neutral-100">=</span>
+                      <span className="text-red-400">"w-full"</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"<"}
-                      <span className="text-code-tag">ul </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">
+                      <span className="text-blue-500">ul </span>
+                      <span className="text-sky-300">className</span>
+                      <span className="text-neutral-100">=</span>
+                      <span className="text-red-400">
                         "flex justify-end flex-wrap items-center"
                       </span>
                       {">"}
                     </span>
 
-                    <span className="text-code-text text-opacity-80 block text-left">
+                    <span className="text-neutral-100 text-opacity-80 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
@@ -758,39 +752,39 @@ function Home() {
                       {"{!-- Links --}"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"</"}
-                      <span className="text-code-tag">ul</span>
+                      <span className="text-blue-500">ul</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"</"}
-                      <span className="text-code-tag">nav</span>
+                      <span className="text-blue-500">nav</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"</"}
-                      <span className="text-code-tag">div</span>
+                      <span className="text-blue-500">div</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       );
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"}"}
                     </span>
                   </code>,
@@ -853,84 +847,84 @@ function Home() {
             }
             codeOne={
               <code className="flex-auto relative block pt-4 mb-1 pl-2 ml-2 mr-2 overflow-auto scroll">
-                <span className="text-code-component block text-left">
-                  <span className="text-code-brakket">{"<"}</span>
+                <span className="text-emerald-400 block text-left">
+                  <span className="text-neutral-500">{"<"}</span>
                   Head
-                  <span className="text-code-brakket">{">"}</span>
+                  <span className="text-neutral-500">{">"}</span>
                 </span>
 
-                <span className="text-code-tag block text-left">
+                <span className="text-blue-500 block text-left">
                   {"  "}
-                  <span className="text-code-brakket">{"<"}</span>
+                  <span className="text-neutral-500">{"<"}</span>
                   link{" "}
-                  <span className="text-code-attr-name">
+                  <span className="text-sky-300">
                     rel
-                    <span className="text-code-text">=</span>
-                    <span className="text-code-attr-value">"preconnect" </span>
+                    <span className="text-neutral-100">=</span>
+                    <span className="text-red-400">"preconnect" </span>
                   </span>
-                  <span className="text-code-attr-name">
+                  <span className="text-sky-300">
                     href
-                    <span className="text-code-text">=</span>
-                    <span className="text-code-attr-value">
+                    <span className="text-neutral-100">=</span>
+                    <span className="text-red-400">
                       "https://fonts.googleapis.com"{" "}
                     </span>
                   </span>
-                  <span className="text-code-brakket">{"/>"}</span>
+                  <span className="text-neutral-500">{"/>"}</span>
                 </span>
 
-                <span className="text-code-tag block text-left">
+                <span className="text-blue-500 block text-left">
                   {"  "}
-                  <span className="text-code-brakket">{"<"}</span>
+                  <span className="text-neutral-500">{"<"}</span>
                   link{" "}
-                  <span className="text-code-attr-name">
+                  <span className="text-sky-300">
                     rel
-                    <span className="text-code-text">=</span>
-                    <span className="text-code-attr-value">"preconnect" </span>
+                    <span className="text-neutral-100">=</span>
+                    <span className="text-red-400">"preconnect" </span>
                   </span>
-                  <span className="text-code-attr-name">
+                  <span className="text-sky-300">
                     href
-                    <span className="text-code-text">=</span>
-                    <span className="text-code-attr-value">
+                    <span className="text-neutral-100">=</span>
+                    <span className="text-red-400">
                       "https://fonts.gstatic.com"{" "}
                     </span>
                   </span>
-                  <span className="text-code-attr-name">crossorigin </span>
-                  <span className="text-code-brakket">{"/>"}</span>
+                  <span className="text-sky-300">crossorigin </span>
+                  <span className="text-neutral-500">{"/>"}</span>
                 </span>
 
-                <span className="text-code-tag block text-left">
+                <span className="text-blue-500 block text-left">
                   {"  "}
-                  <span className="text-code-brakket">{"<"}</span>
+                  <span className="text-neutral-500">{"<"}</span>
                   link
                 </span>
 
-                <span className="text-code-attr-name block text-left">
+                <span className="text-sky-300 block text-left">
                   {"  "}
                   {"  "}
                   href
-                  <span className="text-code-text">=</span>
-                  <span className="text-code-attr-value">
+                  <span className="text-neutral-100">=</span>
+                  <span className="text-red-400">
                     "https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
                   </span>
                 </span>
 
-                <span className="text-code-attr-name block text-left">
+                <span className="text-sky-300 block text-left">
                   {"  "}
                   {"  "}
                   rel
-                  <span className="text-code-text">=</span>
-                  <span className="text-code-attr-value">"stylesheet" </span>
+                  <span className="text-neutral-100">=</span>
+                  <span className="text-red-400">"stylesheet" </span>
                 </span>
 
-                <span className="text-code-brakket block text-left">
+                <span className="text-neutral-500 block text-left">
                   {"  "}
                   {"/>"}
                 </span>
 
-                <span className="text-code-component block text-left">
-                  <span className="text-code-brakket">{"<"}\</span>
+                <span className="text-emerald-400 block text-left">
+                  <span className="text-neutral-500">{"<"}\</span>
                   Head
-                  <span className="text-code-brakket">{">"}</span>
+                  <span className="text-neutral-500">{">"}</span>
                 </span>
               </code>
             }
@@ -949,67 +943,65 @@ function Home() {
               </div>
             }
             codeTwo={
-              <code className="flex-auto relative text-code-text block pt-4 mb-1 pl-2 ml-2 mr-2 overflow-auto scroll">
-                <span className="text-code-component block text-left">
+              <code className="flex-auto relative text-neutral-100 block pt-4 mb-1 pl-2 ml-2 mr-2 overflow-auto scroll">
+                <span className="text-emerald-400 block text-left">
                   module
-                  <span className="text-code-text">{"."}</span>
+                  <span className="text-neutral-100">{"."}</span>
                   exports
-                  <span className="text-code-text">{" = "}</span>
-                  <span className="text-code-text">{"{"}</span>
+                  <span className="text-neutral-100">{" = "}</span>
+                  <span className="text-neutral-100">{"{"}</span>
                 </span>
 
-                <span className="text-code-attr-name block text-left">
+                <span className="text-sky-300 block text-left">
                   {"  "}
                   theme:
-                  <span className="text-code-text">{" {"}</span>
+                  <span className="text-neutral-100">{" {"}</span>
                 </span>
 
-                <span className="text-code-attr-name block text-left">
+                <span className="text-sky-300 block text-left">
                   {"  "}
                   {"  "}
                   extend:
-                  <span className="text-code-text">{" {"}</span>
+                  <span className="text-neutral-100">{" {"}</span>
                 </span>
 
-                <span className="text-code-attr-name block text-left">
+                <span className="text-sky-300 block text-left">
                   {"  "}
                   {"  "}
                   {"  "}
                   fontFamily:
-                  <span className="text-code-text">{" {"}</span>
+                  <span className="text-neutral-100">{" {"}</span>
                 </span>
 
-                <span className="text-code-attr-name block text-left">
+                <span className="text-sky-300 block text-left">
                   {"  "}
                   {"  "}
                   {"  "}
                   {"  "}
                   caveat:{" "}
-                  <span className="text-code-attr-value">
-                    "'Caveat', cursive"
-                  </span>
-                  <span className="text-code-text">,</span>
+                  <span className="text-red-400">"'Caveat', cursive"</span>
+                  <span className="text-neutral-100">,</span>
                 </span>
 
-                <span className="block text-code-text text-left">
+                <span className="block text-neutral-100 text-left">
                   {"  "}
                   {"  "}
                   {"  "}
                   {"},"}
                 </span>
 
-                <span className="block text-code-text text-left">
+                <span className="block text-neutral-100 text-left">
                   {"  "}
                   {"  "}
                   {"},"}
                 </span>
 
-                <span className="block text-code-text text-left">
+                <span className="block text-neutral-100 text-left">
                   {"  "}
                   {"},"}
                 </span>
 
-                <span className="block text-code-text text-left">{"};"}</span>
+                <span className="block text-neutral-100 text-left">{"};"}</span>
               </code>
             }
           />
@@ -1129,156 +1121,144 @@ function Home() {
                 ],
                 code: [
                   <code className="flex-auto relative block pt-2 mb-1 pl-2 ml-2 mr-2 overflow-x-auto scroll">
-                    <span className="text-code-import block text-left">
+                    <span className="text-fuchsia-400 block text-left">
                       @tailwind
-                      <span className="text-code-attr-name"> base;</span>
+                      <span className="text-sky-300"> base;</span>
                     </span>
 
-                    <span className="text-code-import block text-left">
+                    <span className="text-fuchsia-400 block text-left">
                       @tailwind
-                      <span className="text-code-attr-name"> components;</span>
+                      <span className="text-sky-300"> components;</span>
                     </span>
 
-                    <span className="text-code-import block text-left">
+                    <span className="text-fuchsia-400 block text-left">
                       @tailwind
-                      <span className="text-code-attr-name"> utilities;</span>
+                      <span className="text-sky-300"> utilities;</span>
                     </span>
 
-                    <span className="text-code-tag block text-left"> </span>
+                    <span className="text-blue-500 block text-left"> </span>
 
-                    <span className="text-code-import block text-left">
+                    <span className="text-fuchsia-400 block text-left">
                       @layer
-                      <span className="text-code-attr-name"> base</span>
-                      <span className="text-code-text">{" {"}</span>
+                      <span className="text-sky-300"> base</span>
+                      <span className="text-neutral-100">{" {"}</span>
                     </span>
 
-                    <span className="text-code-function block text-left">
+                    <span className="text-yellow-200 block text-left">
                       {"  "}
                       .theme-green
-                      <span className="text-code-text">{" {"}</span>
+                      <span className="text-neutral-100">{" {"}</span>
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  "}
-                      <span className="text-code-attr-name">--color-card</span>:
-                      216, 228, 200;
+                      <span className="text-sky-300">--color-card</span>: 216,
+                      228, 200;
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  "}
-                      <span className="text-code-attr-name">--color-title</span>
-                      : 21, 27, 13;
+                      <span className="text-sky-300">--color-title</span>: 21,
+                      27, 13;
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  "}
-                      <span className="text-code-attr-name">
-                        --color-card-text
-                      </span>
-                      : 43, 55, 27;
+                      <span className="text-sky-300">--color-card-text</span>:
+                      43, 55, 27;
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  "}
-                      <span className="text-code-attr-name">
-                        --color-contrast
-                      </span>
-                      : 177, 201, 146;
+                      <span className="text-sky-300">--color-contrast</span>:
+                      177, 201, 146;
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  }"}
                     </span>
 
-                    <span className="text-code-function block text-left">
+                    <span className="text-yellow-200 block text-left">
                       {"  "}
                       .theme-gray
-                      <span className="text-code-text">{" {"}</span>
+                      <span className="text-neutral-100">{" {"}</span>
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  "}
-                      <span className="text-code-attr-name">--color-card</span>:
-                      32, 28, 33;
+                      <span className="text-sky-300">--color-card</span>: 32,
+                      28, 33;
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  "}
-                      <span className="text-code-attr-name">--color-title</span>
-                      : 226, 222, 227;
+                      <span className="text-sky-300">--color-title</span>: 226,
+                      222, 227;
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  "}
-                      <span className="text-code-attr-name">
-                        --color-card-text
-                      </span>
-                      : 187, 178, 189;
+                      <span className="text-sky-300">--color-card-text</span>:
+                      187, 178, 189;
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  "}
-                      <span className="text-code-attr-name">
-                        --color-contrast
-                      </span>
-                      : 54, 47, 55;
+                      <span className="text-sky-300">--color-contrast</span>:
+                      54, 47, 55;
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  }"}
                     </span>
 
-                    <span className="text-code-function block text-left">
+                    <span className="text-yellow-200 block text-left">
                       {"  "}
                       .theme-blue
-                      <span className="text-code-text">{" {"}</span>
+                      <span className="text-neutral-100">{" {"}</span>
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  "}
-                      <span className="text-code-attr-name">--color-card</span>:
-                      0, 110, 144;
+                      <span className="text-sky-300">--color-card</span>: 0,
+                      110, 144;
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  "}
-                      <span className="text-code-attr-name">--color-title</span>
-                      : 194, 241, 255;
+                      <span className="text-sky-300">--color-title</span>: 194,
+                      241, 255;
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  "}
-                      <span className="text-code-attr-name">
-                        --color-card-text
-                      </span>
-                      : 10, 198, 255;
+                      <span className="text-sky-300">--color-card-text</span>:
+                      10, 198, 255;
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  "}
-                      <span className="text-code-attr-name">
-                        --color-contrast
-                      </span>
-                      : 0, 63, 82;
+                      <span className="text-sky-300">--color-contrast</span>: 0,
+                      63, 82;
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  }"}
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"}"}
                     </span>
                   </code>,
@@ -1320,67 +1300,63 @@ function Home() {
                 ],
                 code: [
                   <code className="flex-auto relative block pt-2 mb-1 pl-2 ml-2 mr-2 overflow-x-auto scroll">
-                    <span className="text-code-text block text-left">
-                      <span className="text-code-tag">function </span>
-                      <span className="text-code-function">withOpacity</span>(
-                      <span className="text-code-attr-name">variableName</span>
+                    <span className="text-neutral-100 block text-left">
+                      <span className="text-blue-500">function </span>
+                      <span className="text-yellow-200">withOpacity</span>(
+                      <span className="text-sky-300">variableName</span>
                       {") {"}
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
-                      <span className="text-code-import">return</span>
+                      <span className="text-fuchsia-400">return</span>
                       {" ({ "}
-                      <span className="text-code-attr-name">opacityValue</span>
+                      <span className="text-sky-300">opacityValue</span>
                       {" )} "}
-                      <span className="text-code-tag">{"=>"}</span>
+                      <span className="text-blue-500">{"=>"}</span>
                       {" {"}
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  "}
-                      <span className="text-code-import">if</span>
+                      <span className="text-fuchsia-400">if</span>
                       {" ("}
-                      <span className="text-code-attr-name">opacityValue </span>
+                      <span className="text-sky-300">opacityValue </span>
                       ==
-                      <span className="text-code-tag"> undefined</span>
+                      <span className="text-blue-500"> undefined</span>
                       {") {"}
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
-                      <span className="text-code-attr-name">opacityValue </span>
+                      <span className="text-sky-300">opacityValue </span>
                       == 1;
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  }"}
                     </span>
 
-                    <span className="text-code-text block text-left">
+                    <span className="text-neutral-100 block text-left">
                       {"  "}
                       {"  "}
-                      <span className="text-code-import">return</span>
+                      <span className="text-fuchsia-400">return</span>
                       {" ({ "}
-                      <span className="text-code-attr-value">
+                      <span className="text-red-400">
                         `rgba(var(
-                        <span className="text-code-tag">
+                        <span className="text-blue-500">
                           {"${"}
-                          <span className="text-code-attr-name">
-                            variableName
-                          </span>
+                          <span className="text-sky-300">variableName</span>
                           {"}"}
                         </span>
                         ),
-                        <span className="text-code-tag">
+                        <span className="text-blue-500">
                           {"${"}
-                          <span className="text-code-attr-name">
-                            opacityValue
-                          </span>
+                          <span className="text-sky-300">opacityValue</span>
                           {"}"}
                         </span>
                         )`
@@ -1388,87 +1364,83 @@ function Home() {
                       ;
                     </span>
 
-                    <span className="block text-code-text text-left">
+                    <span className="block text-neutral-100 text-left">
                       {"  "}
                       {"};"}
                     </span>
 
-                    <span className="block text-code-text text-left">
+                    <span className="block text-neutral-100 text-left">
                       {"}"}
                     </span>
 
-                    <span className="text-code-tag block text-left"> </span>
-                    <span className="text-code-tag block text-left"> </span>
+                    <span className="text-blue-500 block text-left"> </span>
+                    <span className="text-blue-500 block text-left"> </span>
 
-                    <span className="text-code-component block text-left">
+                    <span className="text-emerald-400 block text-left">
                       module
-                      <span className="text-code-text">{"."}</span>
+                      <span className="text-neutral-100">{"."}</span>
                       exports
-                      <span className="text-code-text">{" = "}</span>
-                      <span className="text-code-text">{"{"}</span>
+                      <span className="text-neutral-100">{" = "}</span>
+                      <span className="text-neutral-100">{"{"}</span>
                     </span>
 
-                    <span className="text-code-attr-name block text-left">
+                    <span className="text-sky-300 block text-left">
                       {"  "}
                       theme:
-                      <span className="text-code-text">{" {"}</span>
+                      <span className="text-neutral-100">{" {"}</span>
                     </span>
 
-                    <span className="text-code-attr-name block text-left">
+                    <span className="text-sky-300 block text-left">
                       {"  "}
                       {"  "}
                       extend:
-                      <span className="text-code-text">{" {"}</span>
+                      <span className="text-neutral-100">{" {"}</span>
                     </span>
 
-                    <span className="text-code-attr-name block text-left">
+                    <span className="text-sky-300 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       textColor:
-                      <span className="text-code-text">{" {"}</span>
+                      <span className="text-neutral-100">{" {"}</span>
                     </span>
 
-                    <span className="text-code-attr-name block text-left">
+                    <span className="text-sky-300 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       card:
-                      <span className="text-code-text">{" {"}</span>
+                      <span className="text-neutral-100">{" {"}</span>
                     </span>
 
-                    <span className="block text-code-text text-left">
+                    <span className="block text-neutral-100 text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
-                      <span className="text-code-function">title</span>
-                      <span className="text-code-attr-name">: </span>
-                      <span className="text-code-function">withOpacity</span>(
-                      <span className="text-code-attr-value">
-                        "--color-title"
-                      </span>
+                      <span className="text-yellow-200">title</span>
+                      <span className="text-sky-300">: </span>
+                      <span className="text-yellow-200">withOpacity</span>(
+                      <span className="text-red-400">"--color-title"</span>
                       ),
                     </span>
 
-                    <span className="block text-code-text text-left">
+                    <span className="block text-neutral-100 text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
-                      <span className="text-code-function">text</span>
-                      <span className="text-code-attr-name">: </span>
-                      <span className="text-code-function">withOpacity</span>(
-                      <span className="text-code-attr-value">
-                        "--color-card-text"
-                      </span>
+                      <span className="text-yellow-200">text</span>
+                      <span className="text-sky-300">: </span>
+                      <span className="text-yellow-200">withOpacity</span>(
+                      <span className="text-red-400">"--color-card-text"</span>
                       ),
                     </span>
 
-                    <span className="block text-code-text text-left">
+                    <span className="block text-neutral-100 text-left">
                       {"  "}
                       {"  "}
                       {"  "}
@@ -1476,54 +1448,50 @@ function Home() {
                       {"},"}
                     </span>
 
-                    <span className="text-code-attr-name block text-left">
+                    <span className="text-sky-300 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       backgroundColor:
-                      <span className="text-code-text">{" {"}</span>
+                      <span className="text-neutral-100">{" {"}</span>
                     </span>
 
-                    <span className="text-code-attr-name block text-left">
+                    <span className="text-sky-300 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       card:
-                      <span className="text-code-text">{" {"}</span>
+                      <span className="text-neutral-100">{" {"}</span>
                     </span>
 
-                    <span className="block text-code-text text-left">
+                    <span className="block text-neutral-100 text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
-                      <span className="text-code-function">card</span>
-                      <span className="text-code-attr-name">: </span>
-                      <span className="text-code-function">withOpacity</span>(
-                      <span className="text-code-attr-value">
-                        "--color-card"
-                      </span>
+                      <span className="text-yellow-200">card</span>
+                      <span className="text-sky-300">: </span>
+                      <span className="text-yellow-200">withOpacity</span>(
+                      <span className="text-red-400">"--color-card"</span>
                       ),
                     </span>
 
-                    <span className="block text-code-text text-left">
+                    <span className="block text-neutral-100 text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
-                      <span className="text-code-function">contrast</span>
-                      <span className="text-code-attr-name">: </span>
-                      <span className="text-code-function">withOpacity</span>(
-                      <span className="text-code-attr-value">
-                        "--color-contrast"
-                      </span>
+                      <span className="text-yellow-200">contrast</span>
+                      <span className="text-sky-300">: </span>
+                      <span className="text-yellow-200">withOpacity</span>(
+                      <span className="text-red-400">"--color-contrast"</span>
                       ),
                     </span>
 
-                    <span className="block text-code-text text-left">
+                    <span className="block text-neutral-100 text-left">
                       {"  "}
                       {"  "}
                       {"  "}
@@ -1531,25 +1499,25 @@ function Home() {
                       {"},"}
                     </span>
 
-                    <span className="block text-code-text text-left">
+                    <span className="block text-neutral-100 text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"},"}
                     </span>
 
-                    <span className="block text-code-text text-left">
+                    <span className="block text-neutral-100 text-left">
                       {"  "}
                       {"  "}
                       {"},"}
                     </span>
 
-                    <span className="block text-code-text text-left">
+                    <span className="block text-neutral-100 text-left">
                       {"  "}
                       {"},"}
                     </span>
 
-                    <span className="block text-code-text text-left">
+                    <span className="block text-neutral-100 text-left">
                       {"};"}
                     </span>
                   </code>,
@@ -1591,52 +1559,57 @@ function Home() {
                 ],
                 code: [
                   <code className="flex-auto relative block pt-2 mb-1 pl-2 ml-2 mr-2 overflow-x-auto scroll">
-                    <span className="text-code-import block text-left text-opacity-40">
+                    <span className="text-fuchsia-400 block text-left text-opacity-40">
                       export default
-                      <span className="text-code-tag text-opacity-40">
+                      <span className="text-blue-500 text-opacity-40">
                         {" "}
                         function{" "}
                       </span>
-                      <span className="text-code-function text-opacity-40">
+                      <span className="text-yellow-200 text-opacity-40">
                         Index
                       </span>
-                      <span className="text-code-text text-opacity-40">
+                      <span className="text-neutral-100 text-opacity-40">
                         {"() {"}
                       </span>
                     </span>
 
-                    <span className="text-code-import block text-opacity-40 text-left">
+                    <span className="text-fuchsia-400 block text-opacity-40 text-left">
                       {"  "}
                       return{" "}
-                      <span className="text-code-text text-opacity-40"> (</span>
+                      <span className="text-neutral-100 text-opacity-40">
+                        {" "}
+                        (
+                      </span>
                     </span>
 
-                    <span className="text-code-brakket block text-left text-opacity-40">
+                    <span className="text-neutral-500 block text-left text-opacity-40">
                       {"  "}
                       {"  "}
                       {"<"}
-                      <span className="text-code-tag text-opacity-40">
+                      <span className="text-blue-500 text-opacity-40">
                         div{" "}
                       </span>
-                      <span className="text-code-attr-name text-opacity-40">
+                      <span className="text-sky-300 text-opacity-40">
                         className
                       </span>
-                      <span className="text-code-text text-opacity-40">=</span>
-                      <span className="text-code-attr-value text-opacity-40">
+                      <span className="text-neutral-100 text-opacity-40">
+                        =
+                      </span>
+                      <span className="text-red-400 text-opacity-40">
                         "w-full h-full max-h-screen"
                       </span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"<"}
-                      <span className="text-code-tag">div </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">
+                      <span className="text-blue-500">div </span>
+                      <span className="text-sky-300">className</span>
+                      <span className="text-neutral-100">=</span>
+                      <span className="text-red-400">
                         "flex
                         <span className="rounded-sm bg-white bg-opacity-10 px-1 mx-1">
                           theme-green
@@ -1650,16 +1623,16 @@ function Home() {
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"<"}
-                      <span className="text-code-tag">h1 </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">
+                      <span className="text-blue-500">h1 </span>
+                      <span className="text-sky-300">className</span>
+                      <span className="text-neutral-100">=</span>
+                      <span className="text-red-400">
                         "w-full text-2xl
                         <span className="rounded-sm bg-white bg-opacity-10 px-1 mx-1">
                           text-card-title
@@ -1667,22 +1640,22 @@ function Home() {
                         "
                       </span>
                       {">"}
-                      <span className="text-code-text">Título</span>
+                      <span className="text-neutral-100">Título</span>
                       {"</"}
-                      <span className="text-code-tag">h1</span>
+                      <span className="text-blue-500">h1</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"<"}
-                      <span className="text-code-tag">p </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">
+                      <span className="text-blue-500">p </span>
+                      <span className="text-sky-300">className</span>
+                      <span className="text-neutral-100">=</span>
+                      <span className="text-red-400">
                         "text-base
                         <span className="rounded-sm bg-white bg-opacity-10 px-1 mx-1">
                           text-card-text
@@ -1692,7 +1665,7 @@ function Home() {
                       {">"}
                     </span>
 
-                    <span className="text-code-text block text-left text-opacity-40">
+                    <span className="text-neutral-100 block text-left text-opacity-40">
                       {"  "}
                       {"  "}
                       {"  "}
@@ -1701,34 +1674,34 @@ function Home() {
                       algum texto
                     </span>
 
-                    <span className="text-code-brakket block text-left text-opacity-40">
+                    <span className="text-neutral-500 block text-left text-opacity-40">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"</"}
-                      <span className="text-code-tag text-opacity-40">p</span>
+                      <span className="text-blue-500 text-opacity-40">p</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left text-opacity-40">
+                    <span className="text-neutral-500 block text-left text-opacity-40">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"</"}
-                      <span className="text-code-tag text-opacity-40">div</span>
+                      <span className="text-blue-500 text-opacity-40">div</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"<"}
-                      <span className="text-code-tag">div </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">
+                      <span className="text-blue-500">div </span>
+                      <span className="text-sky-300">className</span>
+                      <span className="text-neutral-100">=</span>
+                      <span className="text-red-400">
                         "flex
                         <span className="rounded-sm bg-white bg-opacity-10 px-1 mx-1">
                           theme-blue
@@ -1742,16 +1715,16 @@ function Home() {
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"<"}
-                      <span className="text-code-tag">h1 </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">
+                      <span className="text-blue-500">h1 </span>
+                      <span className="text-sky-300">className</span>
+                      <span className="text-neutral-100">=</span>
+                      <span className="text-red-400">
                         "w-full text-2xl
                         <span className="rounded-sm bg-white bg-opacity-10 px-1 mx-1">
                           text-card-title
@@ -1759,22 +1732,22 @@ function Home() {
                         "
                       </span>
                       {">"}
-                      <span className="text-code-text">Título</span>
+                      <span className="text-neutral-100">Título</span>
                       {"</"}
-                      <span className="text-code-tag">h1</span>
+                      <span className="text-blue-500">h1</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left">
+                    <span className="text-neutral-500 block text-left">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"<"}
-                      <span className="text-code-tag">p </span>
-                      <span className="text-code-attr-name">className</span>
-                      <span className="text-code-text">=</span>
-                      <span className="text-code-attr-value">
+                      <span className="text-blue-500">p </span>
+                      <span className="text-sky-300">className</span>
+                      <span className="text-neutral-100">=</span>
+                      <span className="text-red-400">
                         "text-base
                         <span className="rounded-sm bg-white bg-opacity-10 px-1 mx-1">
                           text-card-text
@@ -1784,7 +1757,7 @@ function Home() {
                       {">"}
                     </span>
 
-                    <span className="text-code-text block text-left text-opacity-40">
+                    <span className="text-neutral-100 block text-left text-opacity-40">
                       {"  "}
                       {"  "}
                       {"  "}
@@ -1793,39 +1766,39 @@ function Home() {
                       algum texto
                     </span>
 
-                    <span className="text-code-brakket block text-left text-opacity-40">
+                    <span className="text-neutral-500 block text-left text-opacity-40">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"  "}
                       {"</"}
-                      <span className="text-code-tag text-opacity-40">p</span>
+                      <span className="text-blue-500 text-opacity-40">p</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left text-opacity-40">
+                    <span className="text-neutral-500 block text-left text-opacity-40">
                       {"  "}
                       {"  "}
                       {"  "}
                       {"</"}
-                      <span className="text-code-tag text-opacity-40">div</span>
+                      <span className="text-blue-500 text-opacity-40">div</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-brakket block text-left text-opacity-40">
+                    <span className="text-neutral-500 block text-left text-opacity-40">
                       {"  "}
                       {"  "}
                       {"</"}
-                      <span className="text-code-tag text-opacity-40">div</span>
+                      <span className="text-blue-500 text-opacity-40">div</span>
                       {">"}
                     </span>
 
-                    <span className="text-code-text block text-left text-opacity-40">
+                    <span className="text-neutral-100 block text-left text-opacity-40">
                       {"  "}
                       );
                     </span>
 
-                    <span className="text-code-text block text-left text-opacity-40">
+                    <span className="text-neutral-100 block text-left text-opacity-40">
                       {"}"}
                     </span>
                   </code>,
@@ -1999,132 +1972,125 @@ function Home() {
             }
             code={
               <code className="flex-auto relative block pt-4 mb-1 pl-2 ml-2 mr-2 overflow-x-auto scroll">
-                <span className="text-code-import block text-left">
+                <span className="text-fuchsia-400 block text-left">
                   import
-                  <span className="text-code-text">{" { "}</span>
-                  <span className="text-code-attr-name">AiOutlineHome</span>
-                  <span className="text-code-text">{" } "}</span>
+                  <span className="text-neutral-100">{" { "}</span>
+                  <span className="text-sky-300">AiOutlineHome</span>
+                  <span className="text-neutral-100">{" } "}</span>
                   from
-                  <span className="text-code-attr-value">
-                    {" "}
-                    "react-icons/ai"
-                  </span>
-                  <span className="text-code-text">{";"}</span>
+                  <span className="text-red-400"> "react-icons/ai"</span>
+                  <span className="text-neutral-100">{";"}</span>
                 </span>
 
-                <span className="text-code-import block text-left">
+                <span className="text-fuchsia-400 block text-left">
                   import
-                  <span className="text-code-text">{" { "}</span>
-                  <span className="text-code-attr-name">TiSocialInstagram</span>
-                  <span className="text-code-text">{" } "}</span>
+                  <span className="text-neutral-100">{" { "}</span>
+                  <span className="text-sky-300">TiSocialInstagram</span>
+                  <span className="text-neutral-100">{" } "}</span>
                   from
-                  <span className="text-code-attr-value">
-                    {" "}
-                    "react-icons/ti"
-                  </span>
-                  <span className="text-code-text">{";"}</span>
+                  <span className="text-red-400"> "react-icons/ti"</span>
+                  <span className="text-neutral-100">{";"}</span>
                 </span>
 
-                <span className="text-code-tag block text-left"> </span>
+                <span className="text-blue-500 block text-left"> </span>
 
-                <span className="text-code-import block text-left">
+                <span className="text-fuchsia-400 block text-left">
                   export default
-                  <span className="text-code-tag"> function </span>
-                  <span className="text-code-function">Index</span>
-                  <span className="text-code-text">{"() {"}</span>
+                  <span className="text-blue-500"> function </span>
+                  <span className="text-yellow-200">Index</span>
+                  <span className="text-neutral-100">{"() {"}</span>
                 </span>
 
-                <span className="text-code-import block text-left">
+                <span className="text-fuchsia-400 block text-left">
                   {"  "}
-                  return <span className="text-code-text"> (</span>
+                  return <span className="text-neutral-100"> (</span>
                 </span>
 
-                <span className="text-code-brakket block text-left">
+                <span className="text-neutral-500 block text-left">
                   {"  "}
                   {"  "}
                   {"<"}
-                  <span className="text-code-tag">div </span>
-                  <span className="text-code-attr-name">className</span>
-                  <span className="text-code-text">=</span>
-                  <span className="text-code-attr-value">""</span>
+                  <span className="text-blue-500">div </span>
+                  <span className="text-sky-300">className</span>
+                  <span className="text-neutral-100">=</span>
+                  <span className="text-red-400">""</span>
                   {">"}
                 </span>
 
-                <span className="text-code-brakket block text-left">
+                <span className="text-neutral-500 block text-left">
                   {"  "}
                   {"  "}
                   {"  "}
                   {"<"}
-                  <span className="text-code-tag">div </span>
-                  <span className="text-code-attr-name">className</span>
-                  <span className="text-code-text">=</span>
-                  <span className="text-code-attr-value">
+                  <span className="text-blue-500">div </span>
+                  <span className="text-sky-300">className</span>
+                  <span className="text-neutral-100">=</span>
+                  <span className="text-red-400">
                     "text-2xl text-black p-6"
                   </span>
                   {">"}
                 </span>
 
-                <span className="text-code-brakket block text-left">
+                <span className="text-neutral-500 block text-left">
                   {"  "}
                   {"  "}
                   {"  "}
                   {"  "}
                   {"<"}
-                  <span className="text-code-component">AiOutlineHome </span>
+                  <span className="text-emerald-400">AiOutlineHome </span>
                   {"/>"}
                 </span>
 
-                <span className="text-code-brakket block text-left">
+                <span className="text-neutral-500 block text-left">
                   {"  "}
                   {"  "}
                   {"  "}
                   {"</"}
-                  <span className="text-code-tag">div </span>
+                  <span className="text-blue-500">div </span>
                   {">"}
                 </span>
 
-                <span className="text-code-brakket block text-left">
+                <span className="text-neutral-500 block text-left">
                   {"  "}
                   {"  "}
                   {"  "}
                   {"<"}
-                  <span className="text-code-component">
-                    TiSocialInstagram{" "}
-                  </span>
-                  <span className="text-code-attr-name">className</span>
-                  <span className="text-code-text">=</span>
-                  <span className="text-code-attr-value">
+                  <span className="text-emerald-400">TiSocialInstagram </span>
+                  <span className="text-sky-300">className</span>
+                  <span className="text-neutral-100">=</span>
+                  <span className="text-red-400">
                     "text-4xl text-purple m-8"
                   </span>
                   {">"}
                 </span>
 
-                <span className="text-code-brakket block text-left">
+                <span className="text-neutral-500 block text-left">
                   {"  "}
                   {"  "}
                   {"</"}
-                  <span className="text-code-tag">div </span>
+                  <span className="text-blue-500">div </span>
                   {">"}
                 </span>
 
-                <span className="text-code-text block text-left">
+                <span className="text-neutral-100 block text-left">
                   {"  "}
                   );
                 </span>
 
-                <span className="text-code-text block text-left">{"}"}</span>
+                <span className="text-neutral-100 block text-left">{"}"}</span>
               </code>
             }
           />
         </section>
 
-        <section className="overflow-hidden w-full h-auto mb-40 flex flex-col justify-center">
+        <section className="relative overflow-hidden mt-40 w-full h-auto flex flex-col justify-center">
+          <Water />
           <motion.h1
             initial={{ y: "200", opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.3 }}
-            className="text-4xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10"
+            className="text-4xl z-10 sm:text-5xl lg:text-6xl text-center leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10"
           >
             Em breve
           </motion.h1>
@@ -2134,9 +2100,9 @@ function Home() {
             viewport={{ once: true }}
             transition={{ duration: 0.4, delay: 0.2 }}
             className="relative w-full max-w-2xl self-center md:rounded-xl overflow-hidden
-          bg-black text-code-text shadow-2xl flex flex-col h-auto"
+          bg-black text-neutral-100 shadow-2xl flex flex-col h-auto"
           >
-            <div className="bg-gray-600 bg-opacity-40 h-auto">
+            <div className="bg-neutral-600 bg-opacity-40 h-auto">
               <div className="flex-none h-11 flex  items-center px-4">
                 <div className="flex space-x-1.5">
                   <div className="w-3 h-3 border-2 rounded-full border-red-500"></div>
@@ -2163,104 +2129,113 @@ function Home() {
                       <span className="block">10</span>
                       <span className="block">11</span>
                     </div>
-                    <code className="flex-auto relative text-code-text block pt-2 mb-1 pl-2 ml-2 mr-2 overflow-auto scroll">
-                      <span className="text-code-import block text-left">
+                    <code className="flex-auto relative text-neutral-100 block pt-2 mb-1 pl-2 ml-2 mr-2 overflow-auto scroll">
+                      <span className="text-fuchsia-400 block text-left">
                         export default
-                        <span className="text-code-tag"> function </span>
-                        <span className="text-code-function">Opencode</span>
-                        <span className="text-code-text">{"() {"}</span>
+                        <span className="text-blue-500"> function </span>
+                        <span className="text-yellow-200">Opencode</span>
+                        <span className="text-neutral-100">{"() {"}</span>
                       </span>
 
-                      <span className="text-code-import block text-left">
+                      <span className="text-fuchsia-400 block text-left">
                         {"  "}
-                        return <span className="text-code-text"> (</span>
+                        return <span className="text-neutral-100"> (</span>
                       </span>
 
-                      <span className="text-code-brakket block text-left">
+                      <span className="text-neutral-500 block text-left">
                         {"  "}
                         {"  "}
                         {"<"}
-                        <span className="text-code-component">Próxima </span>
-                        <span className="text-code-attr-name">feature</span>
-                        <span className="text-code-text">=</span>
-                        <span className="text-code-tag">{"{SEO}"}</span>
+                        <span className="text-emerald-400">Próxima </span>
+                        <span className="text-sky-300">feature</span>
+                        <span className="text-neutral-100">=</span>
+                        <span className="text-blue-500">{"{SEO}"}</span>
                         {" />"}
                       </span>
 
-                      <span className="text-code-brakket block text-left">
+                      <span className="text-neutral-500 block text-left">
                         {"  "}
                         {"  "}
                         {"<"}
-                        <span className="text-code-tag">div </span>
-                        <span className="text-code-attr-name">className</span>
-                        <span className="text-code-text">=</span>
-                        <span className="text-code-attr-value">"Em breve"</span>
+                        <span className="text-blue-500">div </span>
+                        <span className="text-sky-300">className</span>
+                        <span className="text-neutral-100">=</span>
+                        <span className="text-red-400">"Em breve"</span>
                         {">"}
                       </span>
 
-                      <span className="text-code-brakket block text-left">
+                      <span className="text-neutral-500 block text-left">
                         {"  "}
                         {"  "}
                         {"  "}
                         {"<"}
-                        <span className="text-code-tag">span</span>
+                        <span className="text-blue-500">span</span>
                         {">"}
-                        <span className="text-code-text"> framer-motion </span>
-                        {"<"}/<span className="text-code-tag">span</span>
+                        <span className="text-neutral-100">
+                          {" "}
+                          framer-motion{" "}
+                        </span>
+                        {"<"}/<span className="text-blue-500">span</span>
                         {">"}
                       </span>
 
-                      <span className="text-code-brakket block text-left">
+                      <span className="text-neutral-500 block text-left">
                         {"  "}
                         {"  "}
                         {"  "}
                         {"<"}
-                        <span className="text-code-tag">span</span>
+                        <span className="text-blue-500">span</span>
                         {">"}
-                        <span className="text-code-text"> typing effect </span>
-                        {"<"}/<span className="text-code-tag">span</span>
+                        <span className="text-neutral-100">
+                          {" "}
+                          typing effect{" "}
+                        </span>
+                        {"<"}/<span className="text-blue-500">span</span>
                         {">"}
                       </span>
 
-                      <span className="text-code-brakket block text-left">
+                      <span className="text-neutral-500 block text-left">
                         {"  "}
                         {"  "}
                         {"  "}
                         {"<"}
-                        <span className="text-code-tag">span</span>
+                        <span className="text-blue-500">span</span>
                         {">"}
-                        <span className="text-code-text"> search engine </span>
-                        {"<"}/<span className="text-code-tag">span</span>
+                        <span className="text-neutral-100">
+                          {" "}
+                          search engine{" "}
+                        </span>
+                        {"<"}/<span className="text-blue-500">span</span>
                         {">"}
                       </span>
 
-                      <span className="text-code-brakket block text-left">
+                      <span className="text-neutral-500 block text-left">
                         {"  "}
                         {"  "}
                         {"  "}
                         {"<"}
-                        <span className="text-code-tag">span</span>
+                        <span className="text-blue-500">span</span>
                         {">"}
-                        <span className="text-code-text">
+                        <span className="text-neutral-100">
                           {" "}
                           carrinho de compras{" "}
                         </span>
-                        {"<"}/<span className="text-code-tag">span</span>
+                        {"<"}/<span className="text-blue-500">span</span>
                         {">"}
                       </span>
 
-                      <span className="text-code-brakket block text-left">
+                      <span className="text-neutral-500 block text-left">
                         {"  "}
                         {"  "}
-                        {"<"}/<span className="text-code-tag">div</span>
+                        {"<"}/<span className="text-blue-500">div</span>
                         {">"}
                       </span>
 
-                      <span className="text-code-text block text-left">
+                      <span className="text-neutral-100 block text-left">
                         {"  "});
                       </span>
 
-                      <span className="text-code-text block text-left">
+                      <span className="text-neutral-100 block text-left">
                         {"}"}
                       </span>
                     </code>
@@ -2269,6 +2244,7 @@ function Home() {
               </div>
             </div>
           </motion.div>
+          <div className="h-40"></div>
         </section>
       </main>
     </div>

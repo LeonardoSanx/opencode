@@ -3,17 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    --color-import: 232, 108, 200;
-    --color-tag: 4, 139, 213;
-    --color-attr-name: 106, 200, 253;
-    --color-attr-value: 252, 145, 96;
-    --color-component: 60, 200, 140;
-    --color-function: 235, 208, 89;
-    --color-code-text: 255, 255, 242;
-    --color-brakket: 143, 140, 140;
-  }
-
   .theme-green {
     --color-card: 216, 228, 200;
     --color-title: 21, 27, 13;
@@ -43,6 +32,6 @@
     grid-template-rows: auto 2.25rem auto 2.25rem;
   }
   .scroll {
-    @apply scrollbar-thin scrollbar-thumb-scroll scrollbar-thumb-rounded-full;
+    @apply scrollbar-thin scrollbar-thumb-scroll;
   }
 }

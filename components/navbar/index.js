@@ -1,9 +1,7 @@
 import { useState } from "react";
 import Mobile from "./mobile";
 import { BiMenu, BiX } from "react-icons/bi";
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { motion, useMotionValue, useTransform } from "framer-motion";
-import { info } from "autoprefixer";
 
 export default function Navbar() {
   const [navHeight, setnavHeight] = useState("h-0 mt-0");
