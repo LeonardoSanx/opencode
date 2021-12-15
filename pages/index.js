@@ -33,6 +33,10 @@ function Home() {
         </title>
         <link rel="icon" href="../images/Computer_perspective_matte.png" />
         <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1 viewport-fit=cover"
+        />
+        <meta
           name="description"
           content="Functionalidades, componentes, configurações, códigos explícitos e prontos para uso, navbar, google fonts, custom theme, react-icons"
         />
@@ -1056,7 +1060,7 @@ function Home() {
                     transition={{ duration: 0.2 }}
                   >
                     <div className={`${selectedTheme} max-h-72 mt-4`}>
-                      <div className="flex w-full h-auto text-card-text text-sm sm:text-base bg-card-card rounded-xl">
+                      <div className="flex w-full h-auto max-h-72 text-card-text text-sm sm:text-base bg-card-card rounded-xl">
                         <img
                           src="../images/plant.jpg"
                           alt="imagem de planta"
